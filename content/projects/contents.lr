@@ -1,0 +1,56 @@
+title: Projekte
+---
+body:
+#### text-block ####
+text:
+#Was machen wir so?
+
+##  Freifunk Ortenau
+
+Zur Unterstützung der Bürgerinitiative [Freifunk Ortenau](https://ortenau.freifunk.net/) bieten wir unseren
+Hackspace parallel zu den regulären Section77 Treffen als Treffpunkt für die Ortenauer Freifunk Community-Treffen an.
+
+*Maintainer: Jannis, Klaus und Martin*
+
+## Section 77 Türöffner
+
+*Maintainer: Matthias, Jürgen, Christoph,  Martin*
+
+Funktionen:
+Öffnen einer Türe mittels Authentisierung über ein Smartphone 
+
+Video:  
+[20141115_194913.3gp](https://section77.de/index.php/download_file/view/53/166/)  
+[20141115_194913.mp4](https://section77.de/index.php/download_file/view/54/166/)  
+[20141115_194913.ogv](https://section77.de/index.php/download_file/view/55/166/)  
+[20141115_194913.webm](https://section77.de/index.php/download_file/view/56/166/)  
+     
+
+## Brautomat [@github](https://github.com/Andy1978/Brautomat/wiki)
+
+*Maintainer: Andy*
+
+**Brautomat - der (Bier)brau(au)tomat**
+
+Funktionen:  
+Ansteuerung des Rührwerks mit konstanter Drehzahl oder Sinusmodulation für maximale Durchmischung
+Temperaturregelung entlang des konfigurierbaren Profils.
+
+## Volkszähler (volkszaehler.org)
+
+*Maintainer: Justin*
+
+**Stromverbrauch im Überblick**
+
+volkszaehler.org ist ein freies Smart Meter im Selbstbau.
+Der Nutzer behält dabei die vollständige Kontrolle über Daten seiner Smart Meter.
+
+## Openslot (openslot.de)
+
+*Maintainer: Malte, Sven*
+
+**Openslot macht Dich zum "root" Deiner Rennbahn. Alles ist möglich.**
+
+Das Projekt besteht aus einer neuen Firmware für die CU/Blackbox und einer Clientsoftware für den PC.
+Die Clientsoftware ist das Live Monitoring mit welcher Rundenzeiten, Bestzeiten angezeigt werden,  aber noch vielen mehr.
+

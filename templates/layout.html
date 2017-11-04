@@ -1,0 +1,50 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title>{% block title %}Welcome{% endblock %} — section77</title>
+<body>
+  <header>
+    <h1>section77</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li{% if this._path == '/' %} class="active"{% endif
+          %}><a href="{{ '/'|url }}">w3lc0m3!</a></li>
+        {% for href, title in [
+          ['/about', 'Über uns'],
+          ['/projects', 'Projekte'],
+          ['/kontakt', 'Kontakt'],
+          ['/kalender', 'Kalender'],
+          ['/impressum', 'Impressum']
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
+        <li><a href="https://wiki.section77.de/">Wiki</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="calendar col-md-3">
+      <ul>
+        {% for event in site.get('/kalender').children %}
+          <li>
+              <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
+              <a href="{{ event|url }}">{{ event.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+  </div>
+  <div class="body-wrapper col-md-9">
+    {% block outerbody %}
+    <div class="page">
+      {% block body %}{% endblock %}
+    </div>
+ 
+    {% endblock %}
+
+  </div>
+  
+  <footer>
+	  &copy; 2017 Alle Rechte vorbehalten</br>
+	  Server is sponsored by <a href="http://www.netcup.de/">www.netcup.de</a>
+  </footer>
+</body>
