@@ -1,14 +1,20 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — section77</title>
-<body>
-  <header>
-    <h1>section77</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">w3lc0m3!</a></li>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Section 77 - {{ this.title }}</title>
+    <link rel="stylesheet" href="{{ '/static/font-awesome.min.css'|url }}">
+    <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+  </head>
+  <body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://section77.de">
+      <img src="{{ '/static/section77-logo.png'|url }}" alt="Section77 - Hackspace in Offenburg" width="50" height="28">
+    </a>
+       <a {% if this._path == '/' %} class="is-active navbar-item"{% else %}class="navbar-item"{% endif
+          %} href="{{ '/'|url }}">w3lc0m3!</a>
         {% for href, title in [
           ['/about', 'Über uns'],
           ['/projects', 'Projekte'],
@@ -16,35 +22,40 @@
           ['/kalender', 'Kalender'],
           ['/impressum', 'Impressum']
         ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
+          <a {% if this.is_child_of(href) %} class="is-active navbar-item" {% else %}class="navbar-item"{% endif
+            %} href="{{ href|url }}">{{ title }}</a>
         {% endfor %}
-        <li><a href="https://wiki.section77.de/">Wiki</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="calendar col-md-3">
-      <ul>
-        {% for event in site.get('/kalender').children %}
-          <li>
-              <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
-              <a href="{{ event|url }}">{{ event.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+      <a class="navbar-item" href="https://wiki.section77.de/">Wiki</a>
   </div>
-  <div class="body-wrapper col-md-9">
-    {% block outerbody %}
-    <div class="page">
-      {% block body %}{% endblock %}
+</nav>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+            {% block outerbody %}
+            {% endblock %}
+          <div class="calendar column is-one-fifths">
+              <h1 class="title h1">Nächste Termine</h1>
+              <ul>
+                {% for event in site.get('/kalender').children %}
+                  <li>
+                      <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
+                      <a href="{{ event|url }}">{{ event.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+          </div>
+      </div>
     </div>
- 
-    {% endblock %}
-
-  </div>
-  
-  <footer>
-	  &copy; 2017 Alle Rechte vorbehalten</br>
-	  Server is sponsored by <a href="http://www.netcup.de/">www.netcup.de</a>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+            &copy; 2017 Alle Rechte vorbehalten</br>
+            Server is sponsored by <a href="http://www.netcup.de/">www.netcup.de</a>
+        </p>
+      </div>
+    </div>
   </footer>
-</body>
+  </body>
+</html>

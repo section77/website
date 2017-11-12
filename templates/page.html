@@ -2,7 +2,9 @@
 {% from 'macros/blocksupport.html' import render_full_width_blocks %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block outerbody %}
-  {% call render_full_width_blocks(this.body.blocks, classes='col-md-9') %}
-    <h1>{{ this.title }}</h1>
-  {% endcall %}
+      <div class="column is-three-fifths content">
+      {% call render_full_width_blocks(this.body.blocks, classes='') %}
+        <h1>{{ this.title }}</h1>
+      {% endcall %}
+      </div>
 {% endblock %}

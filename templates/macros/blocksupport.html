@@ -13,16 +13,10 @@
 {% set full_width_blocks = ['banner', 'slideshow'] %}
 
 {% macro render_container(item, classes) %}
-  <div class="container">
-    <div class="row">
-      <div class="{{ classes }}">
         {{ item }}
-      </div>
-    </div>
-  </div>
 {% endmacro %}
 
-{% macro render_full_width_blocks(blocks, classes='col-md-8 col-md-offset-2') %}
+{% macro render_full_width_blocks(blocks, classes='') %}
   {% if blocks and blocks[0]._flowblock != 'banner' and caller %}
     {{ render_container(caller(), classes) }}
   {% endif %}
