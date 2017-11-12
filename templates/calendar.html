@@ -2,10 +2,19 @@
 {% from "macros/blog.html" import render_blog_post %}
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}{{ this.title }}{% endblock %}
-{% block body %}
+{% block outerbody %}
+<div class="column is-three-fifths content">
+
   {% for child in this.pagination.items %}
-    {{ render_blog_post(child, from_index=true) }}
+          <h2>{{ child.title }}</h2>
+          <p>{{ child.date.strftime("%Y-%m-%d %H:%M") }}</p>
+          {% if child.url %}
+          <a href="{{ child.url }}">Link zum Event (extern)</a>
+          {% else %}
+          <a href="{{ child|url }}">Link zum Event</a>
+          {% endif %}
   {% endfor %}
 
   {{ render_pagination(this.pagination) }}
+</div>
 {% endblock %}

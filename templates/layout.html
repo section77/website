@@ -39,7 +39,14 @@
                 {% for event in site.get('/kalender').children %}
                   <li>
                       <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
+                      {% if event.url %}
+                      <a href="{{ event.url }}">{{ event.title }}</a>
+                      {% else %}
                       <a href="{{ event|url }}">{{ event.title }}</a>
+                      {% endif %}
+                      {%  if event.body.blocks %}
+                      <p>{{ event.body.blocks[0] }}</p>
+                      {% endif %}
                   </li>
                 {% endfor %}
               </ul>

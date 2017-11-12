@@ -1,1 +1,11 @@
-<p>Published: {{ this.date.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+{% extends "layout.html" %}
+{% from 'macros/blocksupport.html' import render_full_width_blocks %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block outerbody %}
+      <div class="column is-three-fifths content">
+      {% call render_full_width_blocks(this.body.blocks, classes='') %}
+          <h1>{{ this.title }}</h1>
+          <div class="subtitle">Am: {{ this.date.strftime('%Y-%m-%d %H:%M:%S') }}</div> 
+      {% endcall %}
+      </div>
+{% endblock %}

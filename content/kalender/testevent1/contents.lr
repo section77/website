@@ -6,4 +6,6 @@ date: 2017-10-18 17:53
 ---
 type: Event
 ---
-url: bla.de
+url: http://bla.de
+---
+body: 
