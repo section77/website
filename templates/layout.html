@@ -6,13 +6,47 @@
     <title>Section 77 - {{ this.title }}</title>
     <link rel="stylesheet" href="{{ '/static/font-awesome.min.css'|url }}">
     <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+      <script type="application/javascript">
+          document.addEventListener('DOMContentLoaded', function () {
+          // Get all "navbar-burger" elements
+          var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        
+          // Check if there are any navbar burgers
+          if ($navbarBurgers.length > 0) {
+        
+            // Add a click event on each of them
+            $navbarBurgers.forEach(function ($el) {
+              $el.addEventListener('click', function () {
+        
+                // Get the target from the "data-target" attribute
+                var target = $el.dataset.target;
+                var $target = document.getElementById(target);
+        
+                // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                $el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+        
+              });
+            });
+          }
+        
+        });
+      </script>
   </head>
   <body>
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-black" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://section77.de">
       <img src="{{ '/static/section77-logo.png'|url }}" alt="Section77 - Hackspace in Offenburg" width="50" height="28">
     </a>
+      <button class="button navbar-burger is-black" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+  </div>
+  <div class="navbar-menu" id="navMenu">
+    <div class="navbar-start">
        <a {% if this._path == '/' %} class="is-active navbar-item"{% else %}class="navbar-item"{% endif
           %} href="{{ '/'|url }}">w3lc0m3!</a>
         {% for href, title in [
@@ -26,8 +60,9 @@
             %} href="{{ href|url }}">{{ title }}</a>
         {% endfor %}
       <a class="navbar-item" href="https://wiki.section77.de/">Wiki</a>
+    </div>
   </div>
-</nav>
+  </nav>
   <section class="section">
     <div class="container">
       <div class="columns">
