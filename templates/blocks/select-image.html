@@ -1,0 +1,7 @@
+{% if this.destination %}<a href="{{ this.destination }}">{% endif %}
+    <img src="{{this.image|url}}" {% if this.caption %}alt="{{this.caption}}"{% endif %}>
+{% if this.destination %}</a>{% endif %}
+
+{% if this.caption %}
+<p class="caption">{{this.caption}}</p>
+{% endif %}
