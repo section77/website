@@ -1,8 +1,10 @@
 title: Über uns
 ---
 body:
+
 #### text-block ####
 text:
+
 #Was wir sind:
 
 Der  Section77 e. V. ist ein regionaler Chaostreff und Hackspace des Chaos Computer Clubs (CCC). Wir sind mittlerweile ein eingetragener Verein *mit einem eigenen "[Nerdheim](http://osm.org/go/0DLdIKvND?way=286246667)" in Offenburg und ausreichend Parkmöglichkeiten.*
@@ -30,7 +32,7 @@ dann bist du bei uns genau richtig und herzlich willkommen!
 
 ##Was wir nicht sind:
 
-Wir sind kein elitärer Verein von "Experten". Wir sind alles Lernende, die sich mit anderen austauschen möchten. Jeder, der sich mit unseren [Zielen](https://section77.de/about/#Satzung) identifizieren kann, ist eingeladen dabei zu sein.
+Wir sind kein elitärer Verein von "Experten". Wir sind alles Lernende, die sich mit anderen austauschen möchten. Jeder, der sich mit unseren Zielen identifizieren kann, ist eingeladen dabei zu sein.
 
 Wir sind weder Jobvermittlung noch Sicherheitsberatung. Es gibt zwar Mitglieder, die professionelle Sicherheitsberatungen und -überprüfungen durchführen, diese stellen sich jedoch dem normalen Wettbewerb und möchten nicht über unseren Verein vermittelt werden. 
 
@@ -72,17 +74,17 @@ Der Verein orientiert sich an der Hackerethik, siehe http://ccc.de/de/hackerethi
 
 Dann [schaue auf die Kontaktseite](https://section77.de/kontakt). Dort findest du alle weiteren Informationen.
 
-Du möchtest Vereinsmitglied werden oder den Verein fördern?
+##Du möchtest Vereinsmitglied werden oder den Verein fördern?
 
 Kein Problem. Im Folgenden findest du die:
 
-[die Vereinssatzung vom 11. Mai 2016](https://section77.de/index.php/download_file/view/58/127/)
+[die Vereinssatzung vom 11. Mai 2016](Satzung-2016-05-11.pdf)
 
 und
 
-[den Mitgliedsantrag](https://section77.de/index.php/download_file/view/32/127/)
+[den Mitgliedsantrag](Mitgliedsantrag_v0.2.pdf)
 
-Wie hoch ist der Mitgliedsbeitrag?
+##Wie hoch ist der Mitgliedsbeitrag?
 
 Der monatliche Mitgliedsbeitrag beträgt:
 
@@ -95,4 +97,5 @@ Der Beitrag wird monatsweise zum 1. des Monats erhoben wird per Lastschriftverfa
 Alternativ ist auch eine jährliche Zahlungsweise im Voraus möglich.
 
 Solltest du hierzu noch weitere Fragen haben, so kannst du dich auch jederzeit per EMail über die Mailingliste (s. [Kontaktseite](https://section77.de/kontakt/)) an uns wenden.
-
+----
+class: default
