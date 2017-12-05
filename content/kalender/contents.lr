@@ -1,1 +1,3 @@
 _model: calendar
+---
+_template: calendar_master.html

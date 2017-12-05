@@ -71,7 +71,9 @@
           <div class="calendar column is-one-fifths">
               <h1 class="title h1">Nächste Termine</h1>
               <ul>
-                {% for event in site.get('/kalender').children %}
+                {% for year in site.get('/kalender').children %}
+                   {% for event in year.children %}
+                    
                   <li>
                       <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
                       {% if event.url %}
@@ -83,6 +85,7 @@
                       <p>{{ event.body.blocks[0] }}</p>
                       {% endif %}
                   </li>
+                    {% endfor %}
                 {% endfor %}
               <li>
                   <hr>

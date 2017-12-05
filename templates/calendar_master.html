@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block outerbody %}
+<div class="column is-three-fifths content">
+  {% for child in this.children %}
+          <p><a href="{{ child|url }}">{{ child.title }}</a></p>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,7 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hacksw/handcal//NONSGML v1.0//EN
-{%- for event in site.get('/kalender').children %}
+{%- for year in site.get('/kalender').children %}
+{%- for event in year.children %}
 BEGIN:VEVENT
 UID:{{ event._slug }}
 DTSTAMP:{{ event.date.strftime("%Y%m%dT%H%M%SZ") }}
@@ -10,5 +11,6 @@ DTSTART:{{ event.date.strftime("%Y%m%dT%H%M%SZ") }}
 DTEND:{{ event.date.strftime("%Y%m%dT%H%M%SZ") }}
 SUMMARY:{{ event.title }}
 END:VEVENT
+{%- endfor %}
 {%- endfor %}
 END:VCALENDAR
