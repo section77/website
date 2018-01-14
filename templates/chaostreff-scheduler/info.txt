@@ -1,0 +1,2 @@
+directory contains templates for 'chaostreff-scheduler'.
+see https://github.com/section77/chaostreff-scheduler
