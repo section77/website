@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: WireGuard VPN
 ---
 date: 2018-01-06 14:00
 ---
@@ -11,7 +11,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-Themensuche läuft ...
+WireGuard ist ein neues VPN für GNU/Linux. Läuft im Kernelspace, sehr schnell, sicher, kleine Codebasis.
 ----
 class: default
 

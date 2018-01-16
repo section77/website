@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: EggBot Bau Workshop
 ---
 date: 2018-03-03 14:00
 ---
@@ -11,7 +11,9 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-Themensuche läuft ...
+Rechtzeitig für Ostern können wir uns einen Eierverkritzler bauen.
+
+https://wiki.section77.de/dokuwiki/projekte/eggbot77
 ----
 class: default
 

@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Linux Install-Party
 ---
 date: 2018-02-03 14:00
 ---
@@ -11,7 +11,8 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-Themensuche läuft ...
+Zusammen mit der FreieSoftwareOG, LugOG und LiLUG veranstalten wir eine Linux-Install-Party.
+Jeder der sich über GNU/Linux und Freie Software informieren oder ausprobieren möchte ist Eingeladen.
 ----
 class: default
 
