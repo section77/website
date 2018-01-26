@@ -72,8 +72,8 @@
               <h1 class="title h1">Nächste Termine</h1>
               <ul>
                 {% for year in site.get('/kalender').children %}
-                   {% for event in year.children %}
-                    
+                   {% for event in year.children|sort(attribute='date') %}
+                       {% if event.date > event.date.now() %}
                   <li>
                       <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
                       {% if event.url %}
@@ -85,6 +85,7 @@
                       <p>{{ event.body.blocks[0] }}</p>
                       {% endif %}
                   </li>
+                       {% endif %}
                     {% endfor %}
                 {% endfor %}
               <li>
