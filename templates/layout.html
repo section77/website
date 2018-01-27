@@ -68,33 +68,45 @@
       <div class="columns">
             {% block outerbody %}
             {% endblock %}
-          <div class="calendar column is-one-fifths">
-              <h1 class="title h1">Nächste Termine</h1>
-              <ul>
-                {% for year in site.get('/kalender').children %}
-                   {% for event in year.children|sort(attribute='date') %}
-                       {% if event.date > event.date.now() %}
-                  <li>
-                      <p>{{ event.date.strftime("%Y-%m-%d %H:%M") }}</p>
-                      {% if event.url %}
-                      <a href="{{ event.url }}">{{ event.title }}</a>
-                      {% else %}
-                      <a href="{{ event|url }}">{{ event.title }}</a>
-                      {% endif %}
-                      {%  if event.body.blocks %}
-                      <p>{{ event.body.blocks[0] }}</p>
-                      {% endif %}
-                  </li>
-                       {% endif %}
-                    {% endfor %}
-                {% endfor %}
-              <li>
-                  <hr>
-                  <a href="/section77.ical"><i class="fa fa-calendar is-large"></i> abbonieren</a>
-              </li>
-              </ul>
 
+          <div class="column is-one-fifths">
+
+              <h1 class="title h1">Nächste Termine</h1>
+              {% for year in site.get('/kalender').children %}
+                  {% for event in year.children|sort(attribute='date') %}
+                      {% if event.date > event.date.now() %}
+                          <div class="card">
+                              <header class="card-header">
+                                  <p class="card-header-title">
+                                      {{ event.date.strftime("%Y-%m-%d") }}:&nbsp;
+                                      {% if event.url %}
+                                          <a href="{{ event.url }}">{{ event.title }}</a>
+                                      {% else %}
+                                          <a href="{{ event|url }}">{{ event.title }}</a>
+                                      {% endif %}
+                                  </p>
+                              </header>
+                              <div class="card-content">
+                                  <div class="content">
+                                      {% if event.body.blocks %}
+                                          <p>{{ event.body.blocks[0] }}
+                                          <br>
+                                      {% endif %}
+                                      <time datetime="{{ event.date.strftime("%Y-%m-%d") }}">{{ event.date.strftime(" %H:%M") }}
+                                          Uhr
+                                      </time>
+
+                                  </div>
+                              </div>
+                              <footer class="card-footer">
+                              </footer>
+                          </div>
+                          <br>
+                      {% endif %}
+                  {% endfor %}
+              {% endfor %}
           </div>
+
       </div>
     </div>
   </section>
