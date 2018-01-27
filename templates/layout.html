@@ -78,7 +78,9 @@
                           <div class="card">
                               <header class="card-header">
                                   <p class="card-header-title">
-                                      {{ event.date.strftime("%Y-%m-%d") }}:&nbsp;
+                                      <time datetime="{{ event.date.strftime("%Y-%m-%d") }}">{{ event.date.strftime("%Y-%m-%d, %H:%M") }}
+                                          Uhr
+                                      </time>:&nbsp;
                                       {% if event.url %}
                                           <a href="{{ event.url }}">{{ event.title }}</a>
                                       {% else %}
@@ -89,12 +91,9 @@
                               <div class="card-content">
                                   <div class="content">
                                       {% if event.body.blocks %}
-                                          <p>{{ event.body.blocks[0] }}
-                                          <br>
+                                          {{ event.body.blocks[0] }}
                                       {% endif %}
-                                      <time datetime="{{ event.date.strftime("%Y-%m-%d") }}">{{ event.date.strftime(" %H:%M") }}
-                                          Uhr
-                                      </time>
+
 
                                   </div>
                               </div>
