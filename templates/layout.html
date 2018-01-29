@@ -73,8 +73,8 @@
 
               <h1 class="title h1">Nächste Termine</h1>
               {% for year in site.get('/kalender').children %}
-                  {% for event in year.children|sort(attribute='date') %}
-                      {% if event.date > event.date.now() %}
+                  {% for event in year.children|sort(attribute='date') if event.date > event.date.now()%}
+                      {% if loop.index < 4 %}
                           <div class="card">
                               <header class="card-header">
                                   <p class="card-header-title">
@@ -93,8 +93,6 @@
                                       {% if event.body.blocks %}
                                           {{ event.body.blocks[0] }}
                                       {% endif %}
-
-
                                   </div>
                               </div>
                               <footer class="card-footer">
@@ -104,6 +102,15 @@
                       {% endif %}
                   {% endfor %}
               {% endfor %}
+          
+              <div class="card">
+                  <footer class="card-footer">
+                      <a href="/kalender" class="card-footer-item">...mehr</a>
+                      <a href="/section77.ical" class="card-footer-item"><i class="fa fa-calendar is-large"></i>&nbsp;abbonieren</a></a>
+                  </footer>
+                    
+              </div>
+              
           </div>
 
       </div>
