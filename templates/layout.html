@@ -10,26 +10,26 @@
           document.addEventListener('DOMContentLoaded', function () {
           // Get all "navbar-burger" elements
           var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-        
+
           // Check if there are any navbar burgers
           if ($navbarBurgers.length > 0) {
-        
+
             // Add a click event on each of them
             $navbarBurgers.forEach(function ($el) {
               $el.addEventListener('click', function () {
-        
+
                 // Get the target from the "data-target" attribute
                 var target = $el.dataset.target;
                 var $target = document.getElementById(target);
-        
+
                 // Toggle the class on both the "navbar-burger" and the "navbar-menu"
                 $el.classList.toggle('is-active');
                 $target.classList.toggle('is-active');
-        
+
               });
             });
           }
-        
+
         });
       </script>
   </head>
@@ -100,30 +100,16 @@
                           </div>
                           <br>
                       {% endif %}
-<<<<<<< HEAD
                   {% endfor %}
               {% endfor %}
-          
+
               <div class="card">
                   <footer class="card-footer">
                       <a href="{{ '/kalender'|url }}" class="card-footer-item">...mehr</a>
-                      <a href="{{ '/section77.ics'|url }}" class="card-footer-item"><i class="fa fa-calendar is-large"></i>&nbsp;abbonieren</a></a>
+                      <a href="{{ '/section77.ics'|url }}" class="card-footer-item"><i class="fa fa-calendar is-large"></i>&nbsp;abonnieren</a></a>
                   </footer>
-                    
-              </div>
-              
-=======
-                  </li>
-                       {% endif %}
-                    {% endfor %}
-                {% endfor %}
-              <li>
-                  <hr>
-                  <a href="/section77.ical"><i class="fa fa-calendar is-large"></i> abonnieren</a>
-              </li>
-              </ul>
 
->>>>>>> fixed a typo (abonnieren)
+              </div>
           </div>
         {% endblock calendar %}
       </div>
