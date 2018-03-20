@@ -4,7 +4,7 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block outerbody %}
 <div class="column is-three-fifths content">
-  {% for child in this.children %}
+  {% for child in this.children|sort(reverse=true) %}
       <div class="card">
         <div class="card-content">
             <div class="content">
