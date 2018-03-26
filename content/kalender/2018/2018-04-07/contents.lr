@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: 3D-Druck
 ---
 date: 2018-04-07 14:00
 ---
@@ -11,7 +11,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-text: Themensuche läuft ...
+text: best of „Gelernt in 12 Monaten 3D-Druck“
 ----
 class: default
 
