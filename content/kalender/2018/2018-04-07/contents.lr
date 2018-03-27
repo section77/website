@@ -6,12 +6,18 @@ date: 2018-04-07 14:00
 ---
 type: Event
 ---
-url: http://osm.org/go/0DLdIKvND?way=286246667
+url:  https://osm.org/go/0DLcTGM89
 ---
 body:
 
 #### text-block ####
 text: best of „Gelernt in 12 Monaten 3D-Druck“
+<div style="background-color: whitesmoke; white-space: pre-wrap; padding: 1em;">Dieses mal nicht im Stud, sondern im:
+     <a href="https://osm.org/go/0DLcTGM89">Bürgerhaus Jergerheim Hildboltsweier</a>
+     Tulpenweg 16A
+     77656 Offenburg
+</div>
+
 ----
 class: default
 
