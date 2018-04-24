@@ -11,7 +11,14 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-text: Themensuche läuft ...
+text: Objekterkennung mit OpenCV
+
+wir beschäftigen uns mit OpenCV zum erkennen und tracken von Objekten.
+Das langfristige Ziel ist der Umbau unseres 'jjrobots AIR Hockey Tisches'
+mit einer WebCam und eines Raspberry's.
+
+<i>dies wird <b>KEIN</b> geführter Workshop in OpenCV (der kommt vielleicht später)</i>
+
 ----
 class: default
 
