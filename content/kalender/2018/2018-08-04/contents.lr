@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Scala on Android
 ---
 date: 2018-08-04 14:00
 ---
@@ -11,7 +11,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-text: Themensuche läuft ...
+text: Es muss nicht immer Java sein - Scala auf dem Handy
 ----
 class: default
 
