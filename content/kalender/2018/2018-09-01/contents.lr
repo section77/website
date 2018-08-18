@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: von der Idee zum Layout - eine kompakte Einführung mit KiCad
 ---
 date: 2018-09-01 14:00
 ---
@@ -11,7 +11,9 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 
 #### text-block ####
-text: Themensuche läuft ...
+text:
+Beinhaltet einen Rundflug über Themen wie: Elektronik basics, Datenblatt lesen, Schaltplan zeichnen, layout gestalten, uvm...
+
 ----
 class: default
 
