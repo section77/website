@@ -1,17 +1,24 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: 3D-Rekonstruierung - vom Foto zum STL
 ---
 date: 2018-10-06 14:00
 ---
 type: Event
 ---
-url: http://osm.org/go/0DLdIKvND?way=286246667
+url: https://www.openstreetmap.org/way/57729704
 ---
 body:
 
 #### text-block ####
-text: Themensuche läuft ...
+text: Wie kann ich komplexe Objekte, z.B. eine Statue nur anhand von Handybildern auf meinem PC nachkonstruieren, sodass ich sie anschließend 3D-Drucken kann? (Stichworte: Photogrammetrie, Colmap, Meshlab)
+
+<div style="background-color: whitesmoke; white-space: pre-wrap; padding: 1em;">Dieses mal nicht im Stud, sondern im:
+     <a href="https://www.openstreetmap.org/way/57729704">Schiller-Gymnasium</a>
+     Zeller Str. 33
+     77654 Offenburg
+</div>
+
 ----
 class: default
 
