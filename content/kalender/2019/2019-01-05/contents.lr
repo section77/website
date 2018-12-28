@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Lua auf dem ESP8266
 ---
 date: 2019-01-05 14:00
 ---
@@ -10,7 +10,11 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+text:
+Vom blanken Board zum laufenden Projekt.
 
+Ein Einführung wie man auf ein <a href="https://www.espressif.com/products/hardware/esp8266ex/overview/">ESP8266</a>
+Board die <a href="https://nodemcu.readthedocs.io/en/master/">NodeMCU</a> Firmware bekommt,
+und wie einfach es ist, mit <a href="https://www.lua.org/">Lua</a> eigene Projekte auf dem Board umzusetzten.
 ---
 class: default
