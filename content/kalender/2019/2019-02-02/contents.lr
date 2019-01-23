@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Air-Hockey Steuerung
 ---
 date: 2019-02-02 14:00
 ---
@@ -10,7 +10,10 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Wir werden zusammen die Steuerung unseres Air-Hockey Tisches
+in Rust auf einem Raspberry Pi neu implementieren.
+
+_Dies wird kein richtiges Tech-Event mit einem Vortrag, eher ein "gemeinsames machen"_
 
 ---
 class: default
