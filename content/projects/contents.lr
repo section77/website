@@ -7,24 +7,24 @@ text:
 
 ##  Freifunk Ortenau
 
+*Maintainer: Jannis, Klaus und Martin*
+
 Zur Unterstützung der Bürgerinitiative [Freifunk Ortenau](https://ortenau.freifunk.net/) bieten wir unseren
 Hackspace parallel zu den regulären Section77 Treffen als Treffpunkt für die Ortenauer Freifunk Community-Treffen an.
-
-*Maintainer: Jannis, Klaus und Martin*
 
 
 ## EggBot77
 
-Rechtzeitig zu Ostern [bauen wir uns](https://wiki.section77.de/projekte/eggbot77) neue [Eierbemal-Roboter](https://github.com/section77/EggDuino).
-
 *Maintainer: Justin, Paepke und odessa2*
+
+Rechtzeitig zu Ostern [bauen wir uns](https://wiki.section77.de/projekte/eggbot77) neue [Eierbemal-Roboter](https://github.com/section77/EggDuino).
 
 
 ## Klapperanzeigen
 
-Spaß mit Displays, bei denen sich was bewegt. 8 Ziffern einer Flughafen-[Fallblattanzeigen](https://wiki.section77.de/projekte/fallblattanzeige), Flip-Dot-Anzeigen aus dem Linienbus (Heck und [2m Front](https://wiki.section77.de/projekte/flipdot-lawo)), [Zapfsäulen-Display](https://wiki.section77.de/projekte/tankanzeige), und [vieles mehr](https://wiki.section77.de/projekte/flipdot-bosch).
-
 *Maintainer: Jan*
+
+Spaß mit Displays, bei denen sich was bewegt. 8 Ziffern einer Flughafen-[Fallblattanzeigen](https://wiki.section77.de/projekte/fallblattanzeige), Flip-Dot-Anzeigen aus dem Linienbus (Heck und [2m Front](https://wiki.section77.de/projekte/flipdot-lawo)), [Zapfsäulen-Display](https://wiki.section77.de/projekte/tankanzeige), und [vieles mehr](https://wiki.section77.de/projekte/flipdot-bosch).
 
 
 ## Section 77 Türöffner
@@ -51,6 +51,7 @@ Funktionen:
 Ansteuerung des Rührwerks mit konstanter Drehzahl oder Sinusmodulation für maximale Durchmischung
 Temperaturregelung entlang des konfigurierbaren Profils.
 
+
 ## Volkszähler (volkszaehler.org)
 
 *Maintainer: Justin*
@@ -59,6 +60,7 @@ Temperaturregelung entlang des konfigurierbaren Profils.
 
 volkszaehler.org ist ein freies Smart Meter im Selbstbau.
 Der Nutzer behält dabei die vollständige Kontrolle über Daten seiner Smart Meter.
+
 
 ## Openslot (openslot.de)
 
