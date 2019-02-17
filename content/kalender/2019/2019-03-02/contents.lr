@@ -11,8 +11,10 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 #### text-block ####
  text:
-<li>Aktuell verfügbare Modelle mit Vor- und Nachteilen</li>
-<li>Worauf man beim Kauf und im Alltag achten sollte</li>
-<li>Rundumschlag über aktuelle Ladestecker und Ladetechniken</li>
+<ul>
+  <li>Aktuell verfügbare Modelle mit Vor- und Nachteilen</li>
+  <li>Worauf man beim Kauf und im Alltag achten sollte</li>
+  <li>Rundumschlag über aktuelle Ladestecker und Ladetechniken</li>
+</ul>
 ---
 class: default

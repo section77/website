@@ -11,10 +11,12 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 body:
 #### text-block ####
  text:
-<li>FreeCAD ist eine freie 3D-CAD Software zur Konstruktion von Modellen</li>
-<li>Kurze Einführung in CAD/CAM</li>
-<li>Von der Idee zur 3D-Zeichung</li>
-<li>Manipulation fremder Shapes (z.B. Thingiverse STL)</li>
-<li>Von der 3D-Zeichnung auf den 3D-Drucker</li>
+ <ul>
+  <li>FreeCAD ist eine freie 3D-CAD Software zur Konstruktion von Modellen</li>
+  <li>Kurze Einführung in CAD/CAM</li>
+  <li>Von der Idee zur 3D-Zeichung</li>
+  <li>Manipulation fremder Shapes (z.B. Thingiverse STL)</li>
+  <li>Von der 3D-Zeichnung auf den 3D-Drucker</li>
+ </ul>
 ---
 class: default
