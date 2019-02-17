@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: 101 Elektroautos
 ---
 date: 2019-03-02 14:00
 ---
@@ -10,7 +10,9 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
-
+ text:
+<li>Aktuell verfügbare Modelle mit Vor- und Nachteilen</li>
+<li>Worauf man beim Kauf und im Alltag achten sollte</li>
+<li>Rundumschlag über aktuelle Ladestecker und Ladetechniken</li>
 ---
 class: default
