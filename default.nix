@@ -14,6 +14,6 @@ pkgs.stdenv.mkDerivation rec {
   '';
 
   shellHook = ''
-    lektor server -h 0.0.0.0
+    lektor server -h 0.0.0.0 -p 5001
   '';
 }
