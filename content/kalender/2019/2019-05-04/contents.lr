@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Heimautomatisierung
 ---
 date: 2019-05-04 14:00
 ---
@@ -10,7 +10,13 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text:
+<ul>
+  <li>Home Assistant</li>
+  <li>Automatisierung rund ums Haus für Komfort, Sicherheit und zum Energiesparen - und natürlich als Spielwiese</li>
+  <li>Gartenbewässerung</li>
+  <li>Außenbeleuchtung</li>
+</ul>
 
 ---
 class: default
