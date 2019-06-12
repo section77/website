@@ -1,16 +1,18 @@
 _model: event
 ---
-title: Tech-Event
+title: Gründungsveranstaltung
 ---
 date: 2019-07-06 14:00
 ---
 type: Event
 ---
-url: http://osm.org/go/0DLdIKvND?way=286246667
+url: https://wiki.section77.de/projekte/mitmachwerkstatt_in_offenburg
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
-
+ text:
+ <a href="https://wiki.section77.de/projekte/mitmachwerkstatt_in_offenburg">
+   <img src="mitmachwerkstatt.png" style="display: block; margin-left: auto; margin-right: auto;">
+ </a>
 ---
 class: default
