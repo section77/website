@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Rust Intro
 ---
 date: 2019-08-03 14:00
 ---
@@ -10,7 +10,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Eine Einführung in die Programmiersprache <a href="https://rust-lang.org">Rust</a>
 
 ---
 class: default

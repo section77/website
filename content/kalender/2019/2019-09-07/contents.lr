@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: FreeCAD
 ---
 date: 2019-09-07 14:00
 ---
@@ -10,7 +10,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Workflow für die Module: Part Design, TechDraw, Assembly2, ev. Finite Element. Praxiseinsatz und Grenzen
 
 ---
 class: default
