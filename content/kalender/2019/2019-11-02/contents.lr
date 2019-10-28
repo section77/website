@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Elektronik-Grundkurs
 ---
 date: 2019-11-02 14:00
 ---
@@ -10,7 +10,8 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Was machen eigentlich die Basis-Bauteile? (Widerstand, Kondensator, Diode, Transistor), Ohm'sches Gesetz,
+ Berechnung von Vorwiderständen für LEDs etc., Transistor als Schalter: wie funktioniert das und wie berechne ich das?
 
 ---
 class: default
