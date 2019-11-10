@@ -1,0 +1,17 @@
+_model: event
+---
+title: Chaostreff
+---
+date: 2019-12-03 20:00
+---
+type: Event
+---
+url: http://osm.org/go/0DLdIKvND?way=286246667
+---
+body:
+#### text-block ####
+ text: Dienstagstreffen des Vereins im Hackspace
+(wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats)
+
+---
+class: default
