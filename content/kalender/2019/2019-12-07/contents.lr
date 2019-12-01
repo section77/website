@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Tasmota Firmware
 ---
 date: 2019-12-07 14:00
 ---
@@ -10,7 +10,9 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: <a href="https://tasmota.github.io/docs/#/">Tasmota</a> ist eine alternative Firmware
+ für ESP8266 basierte Geräte.
+ Was kann sie und wie bekomme ich sie auf mein Sonoff Basic / Mini um damit meine Geräte zu steuern.
 
 ---
 class: default
