@@ -1,0 +1,18 @@
+{
+    "api": "0.13",
+    "location": {
+        "address": "Wasserstr. 22a, 77652 Offenburg, Germany",
+        "ext_floor": 1,
+        "lat": 48.4719,
+        "lon": 7.9374,
+    },
+    "logo": "https://section77.de/static/section77_logo_vector.svg",
+    "space": "section77",
+    "feeds": {
+        "calendar": {
+            "type": "ical",
+            "url": "https://section77.de/section77.ics",
+        }
+    },
+    "url": "https://section77.de/"
+}
