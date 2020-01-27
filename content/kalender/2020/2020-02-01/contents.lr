@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Linux
 ---
 date: 2020-02-01 14:00
 ---
@@ -10,7 +10,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Der tägliche Umgang mit Linux - vom Desktop bis zur Console
 
 ---
 class: default
