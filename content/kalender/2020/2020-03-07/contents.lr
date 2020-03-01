@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: IPv6 1×1
 ---
 date: 2020-03-07 14:00
 ---
@@ -10,7 +10,7 @@ url: http://osm.org/go/0DLdIKvND?way=286246667
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Keine Angst vor IPv6 - Hier bekommst du einen Einblick in die unausweichliche Zukunft
 
 ---
 class: default
