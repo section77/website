@@ -15,9 +15,9 @@ in pkgs.stdenv.mkDerivation rec {
   src = pkgs.lib.cleanSource ./.;
   name = "website";
 
-  buildInputs = [
+  buildInputs = with pkgs; [
     imagemagick
-    pkgs.python27Packages.lektor
+    python27Packages.lektor
   ];
 
   installPhase = ''
