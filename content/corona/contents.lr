@@ -1,0 +1,49 @@
+title: Section77 druckt gegen Corona
+---
+body:
+
+#### text-block ####
+text:
+
+#Für welche Artikel können wir Bauteile fertigen?
+
+## Gesichtsschilde
+
+*Verwendung: Zur Abdeckung des Gesichts - kein Filter!*
+
+Die Gesichtsschilde sind eine, durch einen 3D-Drucker erstellte, Halterung für einen dünnen und transparenten Kunststoffschild. Dieser Kunststoffschild kann z.B. aus dem Bürobedarf bekannte Overheadfolie sein. Er kann verhindern, dass Erreger durch Tröpfchen beim Niesen oder Husten in die Augen gelangen können. Damit das Gesichtsschild schützt, benötigt man zusätzlich eine Atemmaske mit entsprechendem Filter, da nur dieser auch die Aerosole abhalten kann.
+----
+class: default
+#### select-image ####
+image: gesichtsschild.jpeg
+----
+caption: 
+----
+destination: 
+#### text-block ####
+text:
+
+## Türöffner-Hilfe
+
+Um Türklinken besser zu öffnen  gibt es kleine Helferlein von uns, die an einen Türgriff geschraubt werden um so per Ellbogen die Türklinke einfacher zu bedienen.
+
+# Was muss ich als Interessent tun, um sowas zu bekommen?
+Mail an [antivirus@section77.de](mailto:antivirus@section77.de)  
+Wir können durch die Anzahl an Druckern in unserem Bereich auch größere Menge fertigen (100+).
+
+# Was kostet mich das?
+Wir geben diese Schilde und Helferlein gerne kostenlos ab, aber freuen uns über eine Spende oder Erstattung des Selbstkostenpreises. Wir wollen anderen Leuten helfen und kein Geld damit verdienen. Nehmt es als unseren kleinen Beitrag in dieser schwierigen Zeit.
+
+# Sind das zertifizierte Medizinische Hilfsmittel?
+Nein! Wir sind keine Fachmänner für klinische Austattung, übernehmen also keine Haftung. Diese Helfer werden auf eigene Gefahr eingesetzt, dennoch sind wir davon überzeugt das Richtige zu tun.
+Wenn die Alternative ist sich eine aufgeschnittene PET-Flasche um den Kopf zu binden oder gar nichts zu nutzen, sind wir davon überzeugt mit unseren Produkten einen sinnvollen Beitrag leisten zu können.
+
+# Kann ich mithelfen?
+Wir sind organisiert und als Hub auf [Maker vs Virus](https://makervsvirus.org/) registriert.  
+Direkt zu uns kommt ihr via [unserer Anleitung](https://wiki.section77.de/themen/drucken_gegen_corona_faq)
+
+# Wie können wir helfen?
+* Fertigen von Bauteilen für Einrichtungen in der Region (PLZ-Bereich 77xxx)
+* Vermitteln von Kontakten zu Makern in anderen Regionen über https://makervsvirus.org/
+----
+class: default
