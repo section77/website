@@ -1,3 +1,5 @@
 [project]
 name = section77
 url = https://section77.de
+[servers.beta]
+target = rsync://paepke@section77.de/var/www/beta.section77.de

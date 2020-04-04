@@ -1,5 +1,6 @@
 {% if this.destination %}<a href="{{ this.destination }}">{% endif %}
-    <img src="{{this.image|url}}" {% if this.caption %}alt="{{this.caption}}"{% endif %}>
+{% set img = record.attachments.images.get(this.image) %}
+    <img src="{{ img.thumbnail(320)|url}}" {% if this.caption %}alt="{{this.caption}}"{% endif %}>
 {% if this.destination %}</a>{% endif %}
 
 {% if this.caption %}
