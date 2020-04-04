@@ -16,6 +16,7 @@ in pkgs.stdenv.mkDerivation rec {
   name = "website";
 
   buildInputs = [
+    imagemagick
     pkgs.python27Packages.lektor
   ];
 
