@@ -17,6 +17,8 @@ class: default
 #### select-image ####
 image: gesichtsschild.jpeg
 ----
+size: M
+----
 caption: 
 ----
 destination: 
