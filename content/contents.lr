@@ -18,7 +18,4 @@ image: 5.png
 ----
 caption:
 ----
-destination:
-´´´
-/corona/
-´´´
+destination: /corona/
