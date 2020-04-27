@@ -25,6 +25,22 @@ destination:
 #### text-block ####
 text:
 
+## Mundschutz-Entlastungsbänder (MSEB)
+
+Mithilfe der MSEB wird der Druck ihres Mundschutzes auf den Hinterkopf verteilt und somit die Ohren entlastet.
+----
+class: default
+#### select-image ####
+image: mseb.jpg
+----
+size: M
+----
+caption:
+----
+destination:
+#### text-block ####
+text:
+
 ## Türöffner-Hilfe
 
 Um Türklinken besser zu öffnen  gibt es kleine Helferlein von uns, die an einen Türgriff geschraubt werden um so per Ellbogen die Türklinke einfacher zu bedienen.
