@@ -1,18 +1,27 @@
 {
     "api": "0.13",
+    "space": "section77",
+    "logo": "https://section77.de/static/section77_logo_vector.svg",
+    "url": "https://section77.de/",
     "location": {
         "address": "Wasserstr. 22a, 77652 Offenburg, Germany",
-        "ext_floor": 1,
         "lat": 48.4719,
-        "lon": 7.9374,
+        "lon": 7.9374
     },
-    "logo": "https://section77.de/static/section77_logo_vector.svg",
-    "space": "section77",
+    "state": {
+      "open": null
+    },
+    "contact": {
+        "email": "kontakt@section77.de",
+        "twitter": "@section77de"
+    },
     "feeds": {
         "calendar": {
             "type": "ical",
-            "url": "https://section77.de/section77.ics",
+            "url": "https://section77.de/section77.ics"
         }
     },
-    "url": "https://section77.de/"
+    "issue_report_channels": [
+        "email"
+    ]
 }
