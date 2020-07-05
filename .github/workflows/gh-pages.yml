@@ -1,0 +1,23 @@
+name: GitHub Pages
+on:
+  push:
+    branches: [master]
+
+  schedule:
+    - cron: '30 2 * * *' # Runs at 02:30 UTC every day
+
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cachix/install-nix-action@v6
+
+      - name: generate site
+        run: nix-build
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./result
