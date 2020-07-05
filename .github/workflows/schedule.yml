@@ -1,0 +1,41 @@
+name: schedule events
+on:
+  push:
+    paths:
+      - "templates/chaostreff-scheduler/**"
+
+  schedule:
+   - cron: '1 2 1 * *' # Runs at 02:01 UTC on the 1st of every month
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cachix/install-nix-action@v6
+      - uses: cachix/cachix-action@v3
+        with:
+          name: s77-website
+          signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
+
+      - name: schedule events
+        run: echo "::set-env name=WORKDIR::$(nix-build -A schedule)"
+
+      - name: push scheduled events
+        run: |
+          git pull $WORKDIR
+
+          git config --global user.name 'chaostreff-scheduler'
+          git config --global user.email 'chaostreff-scheduler@section77.de'
+
+          #git push -q https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.REPOSITORY }}
+          git push
+
+      - name: generate site
+        run: nix-build -A site
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./result
