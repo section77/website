@@ -1,0 +1,11 @@
+Dummy text file to trigger the 'schedule' GitHub action
+which runs the chaostreff-scheduler to schedule our events.
+
+The 'schedule' GitHub actions runs
+  - on the 1st of every month
+  - changes in 'templates/chaostreff-scheduler/**'
+
+To trigger the action, edit any file in this directory.
+
+You can increment this counter: 0
+and commit / push your changes to trigger the action.
