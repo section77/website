@@ -1,0 +1,18 @@
+_model: event
+---
+title: Eröffnungsveranstaltung
+---
+date: 2019-07-06 14:00
+---
+type: Event
+---
+url: https://wiki.section77.de/projekte/mitmachwerkstatt_in_offenburg
+---
+body:
+#### text-block ####
+ text:
+ <a href="https://wiki.section77.de/projekte/mitmachwerkstatt_in_offenburg">
+   <img src="/2020-08-15 - eroeffnung mitmachwerkstatt-front.jpg" style="display: block; margin-left: auto; margin-right: auto;">
+ </a>
+---
+class: default
