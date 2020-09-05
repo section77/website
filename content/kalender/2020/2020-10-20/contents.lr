@@ -1,0 +1,17 @@
+_model: event
+---
+title: Chaostreff
+---
+date: 2020-10-20 20:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+ text: Dienstagstreffen des Vereins (wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats).
+
+
+---
+class: default
