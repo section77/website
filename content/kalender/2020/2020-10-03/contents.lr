@@ -1,0 +1,21 @@
+_model: event
+---
+title: Tech-Event: Laptop second life
+---
+date: 2020-10-03 14:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+text: Einbau eines Linux-Boards (Raspberry Pi 3) in einen defekten oder alten Laptop (MacBook Pro).
+
+<hr/>
+
+Wir beschränken das Event auf <b>maximal 8 Personen</b> - bitte trage dich vorher
+<a href="https://mueller-war-schon-weg.de/oc/index.php/apps/polls/s/5fKGcGyI1uPKlrTN">hier ein</a>.
+
+---
+class: default
