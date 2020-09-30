@@ -1,6 +1,6 @@
 # Section77 website
 
-This repo contains the source of our website at: https://section77.de.
+This contains the source of our website at: https://section77.de.
 
 
 ## Page deployment
@@ -20,7 +20,7 @@ The site will be build from this [GitHub action](https://github.com/section77/we
 This [GitHub action](https://github.com/section77/website/blob/master/.github/workflows/schedule.yml) triggers the scheduling
 
   - at 02:01 UTC on the 1st of every month
-  - when someone pushes changes to 'templates/chaostreff-scheduler/'
+  - when someone tries to pushes changes to 'templates/chaostreff-scheduler/'
 
 ### How-to
 
