@@ -1,5 +1,5 @@
 {% set img_size = ({"S": 120, "M": 320, "L": 500})%}
- {% if this.destination %}<a href="{{ this.destination }}">{% endif %}
+ {% if this.destination %}<a href="{{ this.destination }}" target="_blank">{% endif %}
  {% set img = record.attachments.images.get(this.image) %}
 {% if this.size == "original" %}
     <img src="{{ img|url}}" {% if this.caption %}alt="{{this.caption}}"{% endif %}>
