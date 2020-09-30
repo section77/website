@@ -44,3 +44,5 @@ from `contents.lr` to `contents.lr.ignore` to prevent this.
 
 You can change [this file](https://github.com/section77/website/blob/master/templates/chaostreff-scheduler/trigger-scheduler.txt) and
 push your changes. This triggers the GitHub action.
+
+Thankyou for Reading.
