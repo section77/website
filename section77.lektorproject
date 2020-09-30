@@ -1,5 +1,5 @@
 [project]
-name = section77
+name = section77/More about Corona
 url = https://section77.de
 [servers.beta]
 target = rsync://paepke@section77.de/var/www/beta.section77.de
