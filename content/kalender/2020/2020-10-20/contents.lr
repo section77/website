@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Chaostreff
+title: Chaostreff - abgesagt!
 ---
 date: 2020-10-20 20:00
 ---
@@ -10,13 +10,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Dienstagstreffen des Vereins (wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats).
-
-<hr/>
-
-Wir beschränken die Teilnehmerzahl derzeit auf **8 Personen** im Raum.
-Trage dich bitte vorher [hier ein](https://mueller-war-schon-weg.de/oc/index.php/apps/polls/s/XgfryrvdDJpX04oH),
-damit das planbar ist.
+ text: abgesagt! Dienstagstreffen des Vereins (wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats).
 
 ---
 class: default
