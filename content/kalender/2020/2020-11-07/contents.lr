@@ -1,0 +1,24 @@
+_model: event
+---
+title: Tech-Event: 3D-Design mit OpenSCAD
+---
+date: 2020-11-07 14:00
+---
+type: Event
+---
+url: https://meet.section77.de/tech-event
+---
+body:
+#### text-block ####
+text: Wer Programmieren mag, der wird OpenSCAD lieben!
+
+OpenSCAD ermöglicht einfache Entwürfe zum Erstellen von Alltagsobjekten.
+Das Programm ist Freie Software und plattformübergreifend verfügbar.
+
+<hr/>
+
+Das Tech-Event findet virtuell auf unserer Jitsi instance statt:
+https://meet.section77.de/tech-event
+
+---
+class: default
