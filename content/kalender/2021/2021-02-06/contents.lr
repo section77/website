@@ -1,0 +1,24 @@
+_model: event
+---
+title: Tech-Event: Einstieg in LoRaWAN
+---
+date: 2021-02-06 14:00
+---
+type: Event
+---
+url: https://meet.section77.de/tech-event
+---
+body:
+#### text-block ####
+text: Einstieg in LoRaWAN - das "I" für das IoT
+
+Vernetzung von IoT-Sensoren erfolgt zunehmend per LoRaWAN (Long Range WAN).
+Was ist LoRaWAN? Was ist TTN? Wie funktioniert das alles? Wie kann ich mitspielen?
+
+<hr/>
+
+Das Tech-Event findet virtuell auf unserer Jitsi instance statt:
+https://meet.section77.de/tech-event
+
+---
+class: default
