@@ -1,0 +1,26 @@
+_model: event
+---
+title: Tech-Event: Was ist eigentlich dieses Git und wie hilft es?
+---
+date: 2021-03-06 14:00
+---
+type: Event
+---
+url: https://meet.section77.de/tech-event
+---
+body:
+#### text-block ####
+text: Was ist eigentlich dieses Git und wie hilft es?
+
+Software-Entwicklung ist inzwischen an allen Ecken zu finden. Selbst Volkswagen will ein Software-Unternehmen werden.
+Zu den Standard-Tools zählt - neben dem Editor und dem Compiler oder Interpreter - inzwischen eine Versionsverwaltung.
+Und das Standard-Tool zur Versionsverwaltung ist eindeutig git.
+
+
+<hr/>
+
+Das Tech-Event findet virtuell auf unserer Jitsi instance statt:
+https://meet.section77.de/tech-event
+
+---
+class: default
