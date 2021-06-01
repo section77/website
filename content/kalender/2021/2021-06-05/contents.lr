@@ -1,0 +1,23 @@
+_model: event
+---
+title: Tech-Event: Was ist eigentlich dieses Git und wie hilft es?
+---
+date: 2021-06-05 14:00
+---
+type: Event
+---
+url: https://meet.section77.de/tech-event
+---
+body:
+#### text-block ####
+text: Hardware-Tokens - ein kleiner Zusatzaufwand für den Nutzer, ein großer Gewinn für die IT-Sicherheit
+
+Sicherheitsschlüssel sehen aus wie USB-Sticks, speichern statt Daten jedoch verschiedene kryptographische Schlüssel. Wie uns YubiKey & Co vor Passwortdiebstahl, Phishing und Identitätsklau schützen können und gleichzeitig bequem in der Handhabung sind
+
+<hr/>
+
+Das Tech-Event findet virtuell auf unserer Jitsi instance statt:
+https://meet.section77.de/tech-event
+
+---
+class: default
