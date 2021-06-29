@@ -1,0 +1,27 @@
+_model: event
+---
+title: Tech-Event: Einstieg in Elektronik-Praxis
+---
+date: 2021-07-03 14:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+text: 
+
+<hr/>
+Du wolltest Dir schon immer mal die Füße nass machen in Sachen Elektronik? Perfekt!
+
+- Basis-Bauelemente (Widerstand, Kondensator, Diode, Transistor, LED)
+- Umgang mit dem Multimeter
+- Reihen- und Parallelschaltung
+- Berechnung eines Vorwiderstands für eine LED
+- etc.
+
+Abhängig von der Zahl der Teilnehmenden werden wir den passenden Raum planen. Bitte melde Dich also per Mail an tech-event@section77.de an
+
+---
+class: default
