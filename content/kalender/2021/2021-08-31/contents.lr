@@ -1,0 +1,25 @@
+_model: event
+---
+title: Chaostreff
+---
+date: 2021-08-31 20:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+ text: Dienstagstreffen des Vereins
+(wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats).
+
+Wir treffen uns - sofern das Wetter mitspielt - um 20 Uhr im Innenhof des Bahnhof-Gebäudes.
+Randbedingungen:
+
+  - Teilnehmerzahl ist nicht begrenzt
+  - Test ist nicht notwendig
+  - Abstandsregeln gelten (wir haben Platz - das ist kein Problem)
+  - bitte habt eine Maske dabei für gemeinsame Frickeleien
+
+---
+class: default
