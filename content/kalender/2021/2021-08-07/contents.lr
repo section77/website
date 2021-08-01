@@ -1,0 +1,30 @@
+_model: event
+---
+title: Tech-Event: Nerdschloss
+---
+date: 2021-08-07 14:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+text:
+
+Bastel time: wir brauchen ein neues Nerdschloss
+
+- steuerung per NFC?
+- steuerung per REST request (auth per client-certificates)?
+- servo oder stepper?
+- PI oder ESP32?
+- ...
+
+Du merkst schon: kein echtes Programm, nur ein Ziel: ein neues Nerdschloss für unseren Raum.
+
+
+
+Abhängig von der Zahl der Teilnehmenden werden wir den passenden Raum planen. Bitte melde Dich also per Mail an tech-event@section77.de an.
+
+---
+class: default
