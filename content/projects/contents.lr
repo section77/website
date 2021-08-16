@@ -12,6 +12,15 @@ Wenn du auch bei Freifunk mitmachen möchtest bist du bei uns genau richtig.
 Wir haben auch immer wieder fertig vorbereitete Freifunk-Hardware vorrätig, die zum Selbstkostenpreis erworben werden kann.
 Details gibt es auf den entsprechenden [Wiki-Seiten](https://wiki.section77.de/freifunk/freifunk).
 
+### The Things Network & LoRaWAN
+
+Wir betreiben — gefördert durch die Stadt Offenburg — ein [The Things Network](https://www.thethingsnetwork.org/) [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/what-is-lorawan/)-Gateway auf dem Dach direkt über dem Nerdheim an Gleis 0. In Zusammenhang mit diesem energiearmen Weitbereichsnetzwerk für das Internet der Dinge werden in unserer wachsenden Mitmachwerkstatt in den kommenden Monaten verschiedene Workshops anbieten, zu denen wir euch herzlich einladen!
+
+### Mikroprojekt "Mitmachklima"
+
+Mit einem für alle Bürgerinnen und Bürger offenen Funknetzwerk (siehe The Things Network & LoRaWAN) für das Internet der Dinge möchten wir zum selbstständigen Experimentieren sowie zum Erleben neuer Technologien anregen. In verschiedenen niederschwelligen Workshops werden wir die einfach zusammensteckbare Hardware programmieren, um damit in Echtzeit Umweltdaten wie beispielsweise die aktuelle Feinstaubbelastung im Quartier Bahnhof-Schlachthof erheben zu können. Die erhobenen Daten werden der Allgemeinheit auf [OpenSenseMap](https://opensensemap.org/) offen zur Verfügung gestellt.  
+
+![Mikroprojekte Förderhinweis](mikroprojekte_foerderhinweis.jpg)
 
 ### EggBot77
 
