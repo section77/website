@@ -13,7 +13,7 @@ let
 
     buildInputs = with pkgs; [
       imagemagick
-      python27Packages.lektor
+      python38Packages.lektor
     ];
 
     installPhase = ''
