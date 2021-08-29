@@ -25,8 +25,8 @@ let
   scheduler = import (pkgs.fetchFromGitHub {
     owner = "section77";
     repo = "chaostreff-scheduler";
-    rev = "668df414643ad56e434ea8041ebbad8b6ce61452";
-    sha256 = "17l1aqzag44amilqm0sjdkgykfq8vvcxwv12qz307clz0imzb1hr";
+    rev = "8aec3c1360b736670b3e5693cdd00013bbed33e6";
+    sha256 = "13fy0rnnby90halgppf0pv10j6sv11idmvk4q4kdiy8s5s2q3dr2";
   });
   #scheduler = import ../chaostreff-scheduler ;
 
