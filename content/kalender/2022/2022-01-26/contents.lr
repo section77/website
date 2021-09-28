@@ -1,0 +1,35 @@
+_model: event
+---
+title: Mitmachklima
+---
+date: 2022-01-26 17:00
+---
+type: Event
+---
+url: https://wiki.section77.de/projekte/mikroprojekt_lorawan
+---
+body:
+#### text-block ####
+ text: Um Umweltdaten wie beispielsweisedie aktuelle Feinstaubbelastung Eures Wohnviertels zu erheben,
+ werden wir in verschiedenen Workshops die benötigte Hardware aus Module zusammenstecken und dazu die Software
+ programmieren. Es sind keinerlei Vorkenntnisse notwendig!
+ Die so erhobenen Daten stellen wirder Allgemeinheit offen auf OpenSenseMap.org zur Verfügung.
+
+Mehr information findest du <a href="https://wiki.section77.de/projekte/mikroprojekt_lorawan">hier</a>.
+
+**Die Teilnahme kostet 10€.**
+
+<hr/>
+
+Randbedingungen:
+
+ - Maskenpflicht
+ - Nachweis über eines der 3G (geimpft, genesen oder vor max. 24h getestet)
+ - Abstandsregeln gelten (wir haben Platz - das ist kein Problem)
+ - wir erfassen die Kontaktdaten (zusätzlich ist auch ein Check-In per CWA möglich)
+
+
+
+---
+class: default
+
