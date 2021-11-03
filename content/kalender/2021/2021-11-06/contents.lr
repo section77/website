@@ -10,7 +10,19 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: ESPHome: ESP-Programmierung - so einfach wie YAML-Dateien schreiben!!1!
+
+Ob für Heimautomatisierung, für jegliche Sensorik, als WLAN-Kamera - die ESPs sind nicht mehr wegzudenken.
+ESPHome ist eine der einfachsten Möglichkeiten, diese zu programmieren.
+Die komplette Funktionalität wird in Form einfacher Textdateien abgelegt.
+
+
+Randbedingungen:
+
+  - Nachweis über eines der 2G (geimpft oder genesen, ein Test reicht nicht aus)
+  - keine Maskenpflicht im Innenraum
+  - Abstandsregeln gelten nicht mehr
+  - wir erfassen die Kontaktdaten (alternativ ist auch ein Check-In per Corona Warn App möglich)
 
 ---
 class: default

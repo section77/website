@@ -1,8 +1,8 @@
 _model: event
 ---
-title: 3D-Drucker-Donnerstag
+title: Chaostreff
 ---
-date: 2021-10-21 20:00
+date: 2021-12-07 20:00
 ---
 type: Event
 ---
@@ -10,14 +10,15 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Wie jeden 3. Donnerstag eines Monats findet der 3D-Drucker-Stammtisch im Hackspace statt.
+ text: Dienstagstreffen des Vereins (wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats).
 
-Wir treffen uns im Nerdheim im Bahnhofs-Gebäude. Randbedingungen:
+Wir treffen uns in Gleis 0. Randbedingungen:
 
  - Nachweis über eines der 2G (geimpft oder genesen, ein Test reicht nicht aus)
  - keine Maskenpflicht im Innenraum
  - Abstandsregeln gelten nicht mehr
  - wir erfassen die Kontaktdaten (alternativ ist auch ein Check-In per Corona Warn App möglich)
+
 
 
 ---
