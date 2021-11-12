@@ -10,16 +10,16 @@ url: https://wiki.section77.de/projekte/mikroprojekt_lorawan
 ---
 body:
 #### text-block ####
- text: Um Umweltdaten wie beispielsweisedie aktuelle Feinstaubbelastung Eures Wohnviertels zu erheben,
+ text: Um Umweltdaten wie beispielsweise die aktuelle Feinstaubbelastung eures Wohnviertels zu erheben,
  werden wir in verschiedenen Workshops die benötigte Hardware aus Module zusammenstecken und dazu die Software
  programmieren. Es sind keinerlei Vorkenntnisse notwendig!
- Die so erhobenen Daten stellen wirder Allgemeinheit offen auf OpenSenseMap.org zur Verfügung.
+ Die so erhobenen Daten stellen wir der Allgemeinheit offen auf OpenSenseMap.org zur Verfügung.
 
-Mehr information findest du <a href="https://wiki.section77.de/projekte/mikroprojekt_lorawan">hier</a>.
+Mehr Information findest du <a href="https://wiki.section77.de/projekte/mikroprojekt_lorawan">hier</a>.
 
 **Die Teilnahme kostet 10€.**
 
-<hr/>
+<hr>
 
 Randbedingungen:
 
@@ -32,4 +32,3 @@ Randbedingungen:
 
 ---
 class: default
-

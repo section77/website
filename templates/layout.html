@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Section 77 - {{ this.title }}</title>
     <link rel="stylesheet" href="{{ '/static/font-awesome.min.css'|url }}">
     <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-      <script type="application/javascript">
+      <script>
           document.addEventListener('DOMContentLoaded', function () {
           // Get all "navbar-burger" elements
           var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -47,8 +47,7 @@
   </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-       <a {% if this._path == '/' %} class="is-active navbar-item"{% else %}class="navbar-item"{% endif
-          %} href="{{ '/'|url }}">w3lc0m3!</a>
+       <a {% if this._path == '/' %} class="is-active navbar-item"{% else %}class="navbar-item"{% endif %} href="{{ '/'|url }}">w3lc0m3!</a>
         {% for href, title in [
           ['/about', 'Über uns'],
           ['/corona', 'Corona Info'],
@@ -57,8 +56,7 @@
           ['/kalender', 'Kalender'],
           ['/impressum', 'Impressum']
         ] %}
-          <a {% if this.is_child_of(href) %} class="is-active navbar-item" {% else %}class="navbar-item"{% endif
-            %} href="{{ href|url }}">{{ title }}</a>
+          <a {% if this.is_child_of(href) %} class="is-active navbar-item" {% else %}class="navbar-item"{% endif %} href="{{ href|url }}">{{ title }}</a>
         {% endfor %}
       <a class="navbar-item" href="https://wiki.section77.de/">Wiki</a>
     </div>
@@ -99,7 +97,7 @@
                               <footer class="card-footer">
                               </footer>
                           </div>
-                          <br>
+                          <br/>
                       {% endif %}
                   {% endfor %}
               {% endfor %}
@@ -107,7 +105,7 @@
               <div class="card">
                   <footer class="card-footer">
                       <a href="{{ '/kalender'|url }}" class="card-footer-item">...mehr</a>
-                      <a href="{{ '/section77.ics'|url }}" class="card-footer-item"><i class="fa fa-calendar is-large"></i>&nbsp;abonnieren</a></a>
+                      <a href="{{ '/section77.ics'|url }}" class="card-footer-item"><i class="fa fa-calendar is-large"></i>&nbsp;abonnieren</a>
                   </footer>
 
               </div>
@@ -120,9 +118,9 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-            &copy; 2021 Alle Rechte vorbehalten</br>
+            &copy; 2021 Alle Rechte vorbehalten.<br/>
             Server is sponsored by <a href="http://www.netcup.de/">www.netcup.de</a><br/>
-            <a href="{{ '/datenschutz'|url }}">Datenschutz</a
+            <a href="{{ '/datenschutz'|url }}">Datenschutz</a>
         </p>
       </div>
     </div>

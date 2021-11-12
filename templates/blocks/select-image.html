@@ -2,12 +2,13 @@
  {% if this.destination %}<a href="{{ this.destination }}">{% endif %}
  {% set img = record.attachments.images.get(this.image) %}
 {% if this.size == "original" %}
-    <img src="{{ img|url}}" {% if this.caption %}alt="{{this.caption}}"{% endif %}>
+    <img src="{{ img|url}}" alt="{% if this.caption %}{{this.caption}}{% endif %}">
 {% else %}
-    <img src="{{ img.thumbnail(img_size[this.size])|url}}" {% if this.caption %}alt="{{this.caption}}"{% endif %}>
+    <img src="{{ img.thumbnail(img_size[this.size])|url}}" alt="{% if this.caption %}{{this.caption}}{% endif %}">
 {% endif %}
 {% if this.destination %}</a>{% endif %}
 
 {% if this.caption %}
 <p class="caption">{{this.caption}}</p>
 {% endif %}
+
