@@ -1,13 +1,13 @@
 _model: page
 ---
+title: Datenschutzerklärung
 ---
 body:
 
-Datenschutzerklärung
-====================
+#### text-block ####
+text:
 
-Einleitung
-----------
+# Einleitung<a name="einleitung"></a> &nbsp; [&#11015;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als "Onlineangebot“).
 
@@ -15,21 +15,19 @@ Die verwendeten Begriffe sind nicht geschlechtsspezifisch.
 
 Stand: 15. April 2020
 
-Inhaltsübersicht
-----------------
+# Inhaltsübersicht<a name="inhaltsverzeichnis"></a>
 
-*   [Einleitung](#m14)
-*   [Verantwortlicher](#m3)
-*   [Übersicht der Verarbeitungen](#mOverview)
-*   [Maßgebliche Rechtsgrundlagen](#m13)
-*   [Sicherheitsmaßnahmen](#m27)
-*   [Einsatz von Cookies](#m134)
-*   [Löschung von Daten](#m12)
-*   [Rechte der betroffenen Personen](#m10)
-*   [Begriffsdefinitionen](#m42)
+*   [Einleitung](#einleitung)
+*   [Verantwortlicher](#verantwortlicher)
+*   [Übersicht der Verarbeitungen](#uebersichtverarbeitungen)
+*   [Maßgebliche Rechtsgrundlagen](#rechtsgrundlagen)
+*   [Sicherheitsmaßnahmen](#sicherheitsmassnahmen)
+*   [Einsatz von Cookies](#einsatzvoncookies)
+*   [Löschung von Daten](#loeschenvondaten)
+*   [Rechte der betroffenen Personen](#rechtederperson)
+*   [Begriffsdefinitionen](#begriffsdefinitionen)
 
-Verantwortlicher
-----------------
+# Verantwortlicher<a name="verantwortlicher"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Section77 e.V.  
 Wiesenstraße 11  
@@ -41,8 +39,7 @@ Wiesenstraße 11
 
 **Impressum**: [https://section77.de/impressum/](https://section77.de/impressum/)
 
-Übersicht der Verarbeitungen
-----------------------------
+# Übersicht der Verarbeitungen<a name="uebersichtverarbeitungen"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.
 
@@ -55,7 +52,7 @@ Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwec
 
 *   Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
 
-### Maßgebliche Rechtsgrundlagen
+# Maßgebliche Rechtsgrundlagen<a name="rechtsgrundlagen"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Im Folgenden teilen wir die Rechtsgrundlagen der Datenschutzgrundverordnung (DSGVO), auf deren Basis wir die personenbezogenen Daten verarbeiten, mit. Bitte beachten Sie, dass zusätzlich zu den Regelungen der DSGVO die nationalen Datenschutzvorgaben in Ihrem bzw. unserem Wohn- und Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.
 
@@ -64,8 +61,7 @@ Im Folgenden teilen wir die Rechtsgrundlagen der Datenschutzgrundverordnung (DSG
 
 **Nationale Datenschutzregelungen in Deutschland**: Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Des Weiteren regelt es die Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im Hinblick auf die Begründung, Durchführung oder Beendigung von Beschäftigungsverhältnissen sowie die Einwilligung von Beschäftigten. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.
 
-Sicherheitsmaßnahmen
---------------------
+# Sicherheitsmaßnahmen<a name="sicherheitsmassnahmen"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.
 
@@ -73,8 +69,7 @@ Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integ
 
 **SSL-Verschlüsselung (https)**: Um Ihre via unser Online-Angebot übermittelten Daten zu schützen, nutzen wir eine SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an dem Präfix https:// in der Adresszeile Ihres Browsers.
 
-Einsatz von Cookies
--------------------
+# Einsatz von Cookies<a name="einsatzvoncookies"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B., wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen gespeichert werden, auch als "Nutzer-IDs" bezeichnet)
 
@@ -89,8 +84,7 @@ Cookies werden auf den folgenden Seiten eingesetzt:
 
 Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies kann zu Funktionseinschränkungen dieses Onlineangebotes führen.
 
-Löschung von Daten
-------------------
+# Löschung von Daten<a name="loeschenvondaten"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen Vorgaben gelöscht, sobald deren zur Verarbeitung erlaubten Einwilligungen widerrufen werden oder sonstige Erlaubnisse entfallen (z.B., wenn der Zweck der Verarbeitung dieser Daten entfallen ist oder sie für den Zweck nicht erforderlich sind).
 
@@ -98,8 +92,7 @@ Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zul
 
 Weitere Hinweise zu der Löschung von personenbezogenen Daten können ferner im Rahmen der einzelnen Datenschutzhinweise dieser Datenschutzerklärung erfolgen.
 
-Rechte der betroffenen Personen
--------------------------------
+# Rechte der betroffenen Personen<a name="rechtederperson"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 18 und 21 DSGVO ergeben:
 
@@ -111,8 +104,7 @@ Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insb
 *   **Recht auf Datenübertragbarkeit:** Sie haben das Recht, Sie betreffende Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu fordern.
 *   **Beschwerde bei Aufsichtsbehörde:** Sie haben ferner nach Maßgabe der gesetzlichen Vorgaben das Recht, bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres gewöhnlichen Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes Beschwerde einzulegen, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 
-Begriffsdefinitionen
---------------------
+# Begriffsdefinitionen<a name="begriffsdefinitionen"></a> &nbsp; [&#11014;](#inhaltsverzeichnis "Zum Inhaltsverzeichnis")
 
 In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die gesetzlichen Definitionen sind verbindlich. Die nachfolgenden Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die Begriffe sind alphabetisch sortiert.
 
@@ -121,3 +113,6 @@ In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutz
 *   **Verarbeitung:** "Verarbeitung" ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das Erheben, das Auswerten, das Speichern, das Übermitteln oder das Löschen.
 
 [Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke](https://datenschutz-generator.de/?l=de "Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken.")
+----
+class: default
+
