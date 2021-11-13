@@ -1,0 +1,19 @@
+_model: event
+---
+title: Tag der offenen Tür
+---
+date: 2021-11-20 11:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+
+ text: Tag der offenen Tür anlässlich der Einheihung des neuen Werkstattraums
+
+Anlässlich der Einweihung des neuen Werkstattraums veranstalten wir einen Tag der offenen Tür ab 11 Uhr. Interessierte sind eingeladen, vorbei zu schauen und die Arbeit des Vereins kennenzulernen. Aufgrund der Corona-Situation wird der Tag der offenen Tür in kleinerem Rahmen und nach 2G stattfinden. 
+
+---
+class: default
