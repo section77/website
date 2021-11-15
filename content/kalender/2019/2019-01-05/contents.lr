@@ -17,6 +17,6 @@ Ein Einführung wie man auf ein <a href="https://www.espressif.com/products/hard
 Board die <a href="https://nodemcu.readthedocs.io/en/master/">NodeMCU</a> Firmware bekommt,
 und wie einfach es ist, mit <a href="https://www.lua.org/">Lua</a> eigene Projekte auf dem Board umzusetzten.
 
-<a href="./2019-01-05/slides.pdf">Slides</a>
+<a href="/kalender/2019/2019-01-05/slides.pdf">Slides</a>
 ---
 class: default
