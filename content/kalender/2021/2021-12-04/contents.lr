@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Rubik's Cube - der Zauberwürfel lebt!!1!
 ---
 date: 2021-12-04 14:00
 ---
@@ -10,7 +10,14 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: 
+
+40 Jahre und kein bisschen leise!
+
+Der Zauberwürfel ist auch nach über 40 Jahren noch aktuell. Sei es als Hirn- und Motorik-Training, um <a href="https://www.heise.de/newsticker/meldung/Whistleblower-Snowden-schmuggelte-Daten-mit-Zauberwuerfeln-raus-4523238.html">Daten aus der NSA zu schmuggeln</a> oder als als <a href="https://de.wikipedia.org/wiki/Speedcubing">Nerd-Sport</a> - er wird einfach nicht alt.
+
+Wir frönen der Leidenschaft - als Einsteiger oder als Fortgeschrittener: es geht nicht um Zeiten, es geht um den Spass. Sei dabei.
+
 
 ---
 class: default
