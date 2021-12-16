@@ -1,23 +1,18 @@
 _model: event
 ---
-title: Chaostreff
+title: 3D-Drucker-Donnerstag
 ---
 date: 2021-12-16 20:00
 ---
 type: Event
 ---
-url: https://osm.org/go/0DLdKX764?node=7710279123
+url: https://meet.section77.de/section77
 ---
 body:
 #### text-block ####
- text: Virtuelles Dienstagstreffen des Vereins
-(wie jeden 1. und 3. (manchmal auch 5.) Dienstag des Monats).
 
-https://meet.section77.de/section77
+text: Heute findet wieder unser monatlicher 3D-Drucker-Stammtisch im virtuellen Hackspace statt. 
 
-**Wegen der Pandemie finden die Treffen derzeit nur virtuell statt.**
-
-
-
+Wegen der Pandemie finden die Treffen derzeit nur virtuell statt.
 ---
 class: default
