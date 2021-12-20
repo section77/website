@@ -2,11 +2,11 @@ _model: event
 ---
 title: Chaostreff
 ---
-date: 2022-01-18 20:00
+date: 2022-01-04 20:00
 ---
 type: Event
 ---
-url: https://meet.section77.de/section77
+url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
@@ -14,8 +14,9 @@ body:
 
 https://meet.section77.de/section77
 
-<b>Wegen der Pandemie finden die Treffen derzeit nur virtuell statt.</b>
+Wegen der Pandemie finden die Treffen derzeit nur virtuell statt. 
 
 
 ---
 class: default
+
