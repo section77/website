@@ -1,0 +1,25 @@
+_model: event
+---
+title: 3D-Drucker-Donnerstag
+---
+date: 2022-04-21 20:00
+---
+type: Event
+---
+url: https://www.openstreetmap.org/node/7710279123#map=19/48.47696363925934/7.94585645198822
+---
+body:
+#### text-block ####
+ text: Wie jeden 3. Donnerstag eines Monats findet der 3D-Drucker-Stammtisch im Hackspace statt.
+
+
+Randbedingungen:
+
+* Nachweis über eines der 3G (geimpft, genesen oder getestet)
+* als Test reicht ein Selbsttest nicht aus - aber in der Nähe sind Schnelltest-Zentren
+* Maskenpflicht im Innenraum
+
+
+---
+class: default
+
