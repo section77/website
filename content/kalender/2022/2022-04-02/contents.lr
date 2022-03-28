@@ -1,8 +1,8 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Klimabündnis Ortenau: Straßenfest Offenburg
 ---
-date: 2022-04-02 14:00
+date: 2022-04-02 11:00
 ---
 type: Event
 ---
@@ -10,7 +10,12 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: 
+
+Das Ortenauer Klimabündnis freut sich, nun endlich die Straßenfeste in der Ortenau stattfinden zu lassen.
+
+Das erste wird am 2. April von 11 bis 16 Uhr in Offenburg vor dem Bahnhof in der Hauptstraße stattfinden. Gerade in den heutigen Zeiten müssen wir nochmal aufzeigen, wie wichtig das Thema Mobilität geworden ist. Die steigende Gefahr der Klimakrise, der teure Sprit, der Menschen nach Alternativen zum Auto suchen lässt oder Menschen, die kein Auto fahren können/dürfen, das alles sind Gründe, um Mobilität neu zu denken. Wir wollen eine Mobilität, die sich jede:r leisten kann und niemanden ausschließt. Eine Mobilität, die gut fürs Klima und den Geldbeutel ist. Deswegen brauchen wir endlich die Verkehrswende, auch in der Ortenau. Weg vom Auto und hin zu besseren Bus- und Bahntaktungen und mehr Platz fürs Rad und Menschen.
+
 
 ---
 class: default
