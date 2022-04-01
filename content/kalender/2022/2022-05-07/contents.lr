@@ -1,0 +1,17 @@
+_model: event
+---
+title: Tech-Event
+---
+date: 2022-05-07 14:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+ text: Themensuche läuft ...
+
+---
+class: default
+
