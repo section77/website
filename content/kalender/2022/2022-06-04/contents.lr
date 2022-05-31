@@ -10,7 +10,15 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Nerdschloss reloaded
+
+Jetzt, wo der MVP läuft (yay!), gibt es noch ein paar Dinge, die wir vollenden können:
+- wer noch keinen Schlüssel hat, kann sich einen anlegen (lassen)
+- Umbau Pi4->Pi1
+- Umbau der Pins (derzeit verstreut über die Leiste; besser: 6-er-Pin-Block)
+- Weiterentwicklung des UI
+- Aktivierung TMC-Zauberkräfte (Stichwort: Endpositionserfassung)
+- Anbindung Space-API / Holzklotz
 
 ---
 class: default
