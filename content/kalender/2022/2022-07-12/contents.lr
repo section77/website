@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Mitmachklima
+title: Workshop Mitmachklima
 ---
 date: 2022-07-12 17:00
 ---
@@ -10,10 +10,9 @@ url: https://wiki.section77.de/projekte/mikroprojekt_lorawan
 ---
 body:
 #### text-block ####
- text: Um Umweltdaten wie beispielsweise die aktuelle Feinstaubbelastung eures Wohnviertels zu erheben,
- werden wir in verschiedenen Workshops die benötigte Hardware aus Module zusammenstecken und dazu die Software
+ text: Um Umweltdaten wie beispielsweise die aktuelle Feinstaubbelastung deines Wohnviertels zu erheben,
+ werden wir in diesem Workshop die benötigte Hardware aus Modulen zusammenstecken und dazu die Software
  programmieren. Es sind keinerlei Vorkenntnisse notwendig!
- Die so erhobenen Daten stellen wir der Allgemeinheit offen auf OpenSenseMap.org zur Verfügung.
 
 <a href="mailto:machmit@section77.de?subject=Ich_mach_mit!!!1!!">Zur Anmeldung bitte hier entlang!</a>
 
