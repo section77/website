@@ -47,18 +47,16 @@
   </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-       <a {% if this._path == '/' %} class="is-active navbar-item"{% else %}class="navbar-item"{% endif %} href="{{ '/'|url }}">w3lc0m3!</a>
         {% for href, title in [
           ['/about', 'Über uns'],
-          ['/corona', 'Corona Info'],
           ['/projects', 'Projekte'],
           ['/kontakt', 'Kontakt'],
           ['/kalender', 'Kalender'],
-          ['/impressum', 'Impressum']
         ] %}
           <a {% if this.is_child_of(href) %} class="is-active navbar-item" {% else %}class="navbar-item"{% endif %} href="{{ href|url }}">{{ title }}</a>
         {% endfor %}
       <a class="navbar-item" href="https://wiki.section77.de/">Wiki</a>
+      <a class="navbar-item" href="https://chat.section77.de/">Chat</a>
     </div>
   </div>
   </nav>
@@ -120,7 +118,7 @@
         <p>
             &copy; 2021 Alle Rechte vorbehalten.<br/>
             Server is sponsored by <a href="http://www.netcup.de/">www.netcup.de</a><br/>
-            <a href="{{ '/datenschutz'|url }}">Datenschutz</a>
+            <a href="{{ '/datenschutz'|url }}">Datenschutz</a> | <a href="{{ '/impressum'|url }}">Impressum</a>
         </p>
       </div>
     </div>
