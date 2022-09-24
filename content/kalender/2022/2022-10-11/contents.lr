@@ -1,0 +1,23 @@
+_model: event
+---
+title: Chaostreff
+---
+date: 2022-10-11 20:00
+---
+type: Event
+---
+url: https://www.openstreetmap.org/node/7710279123#map=19/48.47696363925934/7.94585645198822
+---
+body:
+#### text-block ####
+ text: Reguläres Dienstagstreffen des Vereins (jeden Dienstag).
+
+
+Randbedingungen:
+
+* wir empfehlen, im Innenraum eine Maske zu tragen
+
+
+---
+class: default
+
