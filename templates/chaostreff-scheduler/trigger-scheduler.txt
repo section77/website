@@ -1,6 +1,10 @@
 Dummy text file to trigger the 'schedule' GitHub action
 which runs the chaostreff-scheduler to schedule our events.
 
+We have this because we can't trigger a GitHub action in the UI.
+Only for already runned actions :(
+
+
 The 'schedule' GitHub actions runs
   - on the 1st of every month
   - changes in 'templates/chaostreff-scheduler/**'
