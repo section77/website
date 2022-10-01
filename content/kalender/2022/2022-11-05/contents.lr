@@ -10,7 +10,15 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+OS/400 auf AS/400 - i5/OS auf iSeries - IBM i auf IBM POWER: Warum der Vortragende diese Plattform so faszinierend findet.
+
+Geplante Inhalte:
+- Historie,
+- Text User Interfaces: geliebt und gescholten,
+- Unterschiede zu dem "was man so kennt", bzw. Alleinstellungsmerkmale,
+- Applikationen/Programmierung,
+- Integration in moderne Umgebungen: Netzwerk, Protokolle, Zugriffsmöglichkeiten,
+- Falls die Zeit reicht und Interesse besteht: Minimalbeispiel eines Programms, Erstellung mit Erläuterung.
 
 ---
 class: default
