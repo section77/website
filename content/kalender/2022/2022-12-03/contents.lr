@@ -1,0 +1,21 @@
+_model: event
+---
+title: Tech-Event: OpenDTU Workshop
+---
+date: 2022-12-03 14:00
+---
+type: Event
+---
+url: https://osm.org/go/0DLdKX764?node=7710279123
+---
+body:
+#### text-block ####
+ text: DIY-Workshop zum freien Projekt OpenDTU. Mit zwei günstigen Standardkomponenten (ESP32 und einem NRF24L01+) kann ein Open-Source-basiertes Gateway gebaut werden, mit welchem die Daten von Hoymiles/TSUN Wechselrichtern lokal ohne Cloud ausgelesen werden können.
+  So habt ihr stets im Blick, wie viel Strom euere Balkonsolaranlage produziert und welchen Beitrag ihr bisher zur Energiewende geleistet habt.
+  
+  Solltet ihr an einer Sammelbestellung der notwendigen Komponenten interessiert sein, meldet euch gerne vorab via ...
+  
+  Weitere Details zum OpenDTU-Projekt findet ihr <a href="https://github.com/tbnobody/OpenDTU" target="_blank">hier</a>.
+
+---
+class: default
