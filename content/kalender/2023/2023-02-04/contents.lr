@@ -1,16 +1,23 @@
 _model: event
 ---
-title: Tech-Event
+title: Workshop OpenBikeSensor
 ---
-date: 2023-02-04 14:00
+date: 2023-01-21 10:00
 ---
 type: Event
 ---
-url: https://osm.org/go/0DLdKX764?node=7710279123
+url: https://offenburg.adfc.de/neuigkeit/workshops-openbikesensor
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Mach mit und bau dir einen Überholabstandsmesser für dein Rad. Wir unterstützen Dich dabei. Bausätze werden so vorbereitet, dass es "einfach" ist, einen OBS für sich selbst zusammenzubauen.
+
+Hier geht's zur Anmeldung: https://touren-termine.adfc.de/radveranstaltung/84458-workshop-bau-von-openbikesensor
+
+**Die Teilnahme kostet 10€, der fertige OBS kann mitgenommen werden.**
+
+<hr/>
+
 
 ---
 class: default
