@@ -1,0 +1,21 @@
+_model: event
+---
+title: International Open Hackerspace Day
+---
+date: 2023-03-25 11:00
+---
+type: Event
+---
+url: https://www.openstreetmap.org/node/7710279123#map=19/48.47696363925934/7.94585645198822
+---
+body:
+#### text-block ####
+ text:
+
+Von 11:00 Uhr bis 17:00 Uhr
+
+Hackspaces die sonst noch teilnehmen: https://md.darmstadt.ccc.de/tagderoffenentuer?both
+
+---
+class: default
+
