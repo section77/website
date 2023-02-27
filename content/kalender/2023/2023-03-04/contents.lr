@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Was ihr schon immer über Röhren wissen wolltet, ...
 ---
 date: 2023-03-04 14:00
 ---
@@ -10,7 +10,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Als Quasi-Vorläufer des Transistors kennt man die Röhre heute am Ehesten noch aus High-End Audio-Verstärkern. Aber was genau ist denn eigentlich eine Röhre (mechanisch)? Wie funktioniert sie (physikalisch)? Was tut eine Röhre (elektrisch)? Welche Arten von Röhren gibt es? Und wie kann man eine Röhre mit einem Halbleiter vergleichen? All das ist diesen Samstag Thema in unserem Tech-Event.
 
 ---
 class: default
