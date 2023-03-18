@@ -1,0 +1,17 @@
+_model: event
+---
+title: OpenBikeSensor - "Wie in Offenburg Sicherheit im Radverkehr gelingt"
+---
+date: 2023-03-22 19:00
+---
+type: Event
+---
+url: https://offenburg.adfc.de/neuigkeit/workshops-openbikesensor
+---
+body:
+#### text-block ####
+text: Herzliche Einladung zu unserer Veranstaltung für mehr Radverkehrsicherheit am 22.März 19:00Uhr in der Waldbachschule.
+Neben zwei Fachvorträgen stellen wir die Messergebnisse vor und wollen diskutieren wie Radverkehr sicherer gemacht werden kann.
+---
+class: default
+
