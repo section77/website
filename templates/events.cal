@@ -29,7 +29,11 @@ UID:{{ event._slug }}
 DTSTAMP:{{ event.date.strftime("%Y%m%dT%H%M%SZ") }}
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:{{ event.date.strftime("%Y%m%dT%H%M%S") }}
+{%- if event.end %}
+DTEND;TZID=Europe/Berlin:{{ event.end.strftime("%Y%m%dT%H%M%S") }}
+{%- else %}
 DTEND;TZID=Europe/Berlin:{{ event.date.strftime("%Y%m%dT%H%M%S") }}
+{%- endif %}
 SUMMARY:{{ event.title }}
 {%- if loop.index <= 12 %}
 URL:https://section77.de/kalender/{{ year.title }}/#{{ event.date.strftime("%Y-%m-%d") }}

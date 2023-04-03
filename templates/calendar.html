@@ -2,28 +2,33 @@
 {% from "macros/blog.html" import render_blog_post %}
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}{{ this.title }}{% endblock %}
-{% block outerbody %}
+{%- block outerbody %}
 <div class="column is-three-fifths content">
 
-  {% for child in this.pagination.items|sort(attribute='date', reverse=true) %}
+  {%- for child in this.pagination.items|sort(attribute='date', reverse=true) %}
           <h2 id={{ child.date.strftime("%Y-%m-%d %H:%M") }}>
             <a style="color: black;" href={{ "#" + child.date.strftime("%Y-%m-%d %H:%M") }}>
                 {{ child.title }}
             </a>
           </h2>
-          <p>{{ child.date.strftime("%Y-%m-%d %H:%M") }}</p>
+          <p>
+            {{ child.date.strftime("%Y-%m-%d %H:%M") }}
+            {%- if child.end %}
+             - {{ child.end.strftime("%H:%M") }}
+            {%- endif %}
+          </p>
           <p>{{ child.body }}</p>
-          {% if child.url %}
+          {%- if child.url %}
           <a href="{{ child.url }}">Link zum Event (extern)</a>
-          {% else %}
+          {%- else %}
           <a href="{{ child|url }}">Link zum Event</a>
           {% endif %}
           <hr>
-  {% endfor %}
+  {%- endfor %}
 
   {{ render_pagination(this.pagination) }}
 </div>
-{% endblock %}
+{%- endblock %}
 
 {% block calendar %}
 {% endblock %}
