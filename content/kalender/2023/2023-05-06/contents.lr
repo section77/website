@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: ...und dann habe ich eben eine Retro-Konsole gebaut!
 ---
 date: 2023-05-06 14:00
 ---
@@ -12,8 +12,5 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
-
----
-class: default
+ text: Erinnerst Du Dich noch an die 80er? Wir uns auch nicht (mehr) - aber da waren Spielekonsolen noch größer als die Spielenden selbst. Und so eine - mit aktueller Technik, aber in Original-Optik und -Klang - haben wir bei unserem Tech-Event in unserem Nerdheim stehen. Mitsamt dem Erbauer und seiner Geschichte dazu.
 
