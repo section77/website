@@ -1,3 +1,4 @@
+---
 name: schedule events
 on:
   push:
@@ -5,7 +6,7 @@ on:
       - "templates/chaostreff-scheduler/**"
 
   schedule:
-   - cron: '1 2 1 * *' # Runs at 02:01 UTC on the 1st of every month
+    - cron: '1 2 1 * *'   # Runs at 02:01 UTC on the 1st of every month
 
 jobs:
   schedule:
