@@ -26,7 +26,7 @@ let
     owner = "section77";
     repo = "chaostreff-scheduler";
     rev = "3bd18314c0f5c8d4c8f4f11d30465c1db74120fc";
-    sha256 = "0000000000000000000000000000000000000000000000000000";
+    sha256 = "";
   });
   #scheduler = import ../chaostreff-scheduler ;
 
