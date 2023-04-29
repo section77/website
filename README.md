@@ -44,3 +44,6 @@ from `contents.lr` to `contents.lr.ignore` to prevent this.
 
 You can change [this file](https://github.com/section77/website/blob/master/templates/chaostreff-scheduler/trigger-scheduler.txt) and
 push your changes. This triggers the GitHub action.
+
+## Update chaostreff-scheduler
+When the [chaostreff-scheduler](https://github.com/section77/chaostreff-scheduler) is changed, default.nix must be updated with the current commit hash and the nix hash need to be set to "". Then nix will complain and generate the actual [nix hash](https://nixos.wiki/wiki/Nix_Hash) (to be looked up in the ci job). This hash then needs to be inserted in the default.nix file.
