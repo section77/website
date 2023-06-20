@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Tasmota - ESP auf Steroiden
 ---
 date: 2023-07-01 14:00
 ---
@@ -12,7 +12,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: So wie der ESP inzwischen der Standard-Mikrocontroller für - ähm - alles ist, ist Theo Arends Tasmota inzwischen die Standard-Firmware. Es gibt jedoch noch Hersteller, die vergessen haben, diese Firmware vor Auslieferung auf den Controller zu flashen - wir finden zusammen heraus, wie wir das nachholen und ob sich der Aufwand lohnt, um so eine Schaltsteckdose mit Leistungsmessung für schlappe 10 EUR zu bekommen.
 
 ---
 class: default
