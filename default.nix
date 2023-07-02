@@ -4,7 +4,7 @@ let
     name = "nixos-23.05";
     url = "https://github.com/nixos/nixpkgs/";
     ref = "refs/heads/nixos-23.05";
-    rev = "a1007637cea374bd1bafd754cfd5388894c49129";
+    rev = "9790f3242da2152d5aa1976e3e4b8b414f4dd206";
     }) {};
 
   site = pkgs.stdenv.mkDerivation rec {
