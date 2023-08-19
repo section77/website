@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event: 3D-Druck mit Harz ("SLA")
+title: Tech-Event: 3D-Druck mit Kunstharz ("SLA")
 ---
 date: 2023-09-09 14:00
 ---
@@ -12,7 +12,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Die meisten 3D-Drucker arbeiten wie eine Heissklebepistole, die frei im Raum positioniert werden kann. Das Verfahren ist bewährt, hat aber seine Nachteile: ganz feine Strukturen lassen sich damit nur schwer erzeugen, die Maschine selbst ist relativ kompliziert. Seit einer Weile gibt es eine alternative Methode, bei der mit aushärtendem Kunstharz gedruckt wird: Stereolithographie oder kurz SLA. 
+ text: Die meisten 3D-Drucker arbeiten wie eine Heißklebepistole, die frei im Raum positioniert werden kann. Das Verfahren ist bewährt, hat aber seine Nachteile: ganz feine Strukturen lassen sich damit nur schwer erzeugen, und die Maschine selbst ist relativ kompliziert. Seit einer Weile gibt es eine alternative Methode, bei der mit aushärtendem Kunstharz gedruckt wird: Stereolithographie oder kurz SLA. 
 
 Wir zeigen, wie der Druck funktioniert, welche Werkzeuge benötigt werden und worin die Unterschiede zum herkömmlichen Druck mit Filament liegen.
 
