@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: "...und den Rest tunneln wir dann durch." oder: Zaubertricks mit SSH
 ---
 date: 2023-10-07 14:00
 ---
@@ -12,9 +12,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: "...und den Rest tunneln wir dann durch." oder: Zaubertricks mit SSH
-
-Die Secure Shell ist das Brot-und-Butter-Werkzeug des Admins. Unter Linux seit Jahrzehnten bewährt, immer weiter verfeinert - und neuerdings auch unter Windows immer häufiger genutzt.
+ text: Die Secure Shell ist das Brot-und-Butter-Werkzeug des Admins. Unter Linux seit Jahrzehnten bewährt, immer weiter verfeinert - und neuerdings auch unter Windows immer häufiger genutzt.
 Wir schauen uns das Tool ganz genau an. Denn - während es für die tägliche Arbeit unverzichtbar ist - lassen sich damit auch Dinge machen, die zwar nicht offensichtlich, dafür aber furchtbar praktisch sind.
 
 ---
