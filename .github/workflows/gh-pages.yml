@@ -9,6 +9,8 @@ on:
 
 jobs:
   gh-pages:
+    # Only run the job if the repository is section77/website
+    if: github.repository == 'section77/website'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
