@@ -12,7 +12,12 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Der RaspberryPi ist ein kleiner Computer, der sich für viele interessante und nützliche Anwendungen nutzen lässt. Section77 e.V. zeigt am Samstag, 4.11. ab 14 Uhr in ihren Räumen in der Hauptstrasse 1 in Offenburg (Bahnhof), wie man damit Heimautomatisierung, 3D-Druck, Retro-Spiele-Konsole, Medienzentrale oder Werbe-Blocker bauen kann. Vorgeführt werden die Installation sowie die praktische Verwendung. Die Teilnahme an der Veranstaltung ist wie immer kostenlos, unverbindlich und ohne vorherige Anmeldung möglich.
+ text: Der RaspberryPi ist ein kleiner Computer, der sich für viele interessante und nützliche Anwendungen nutzen lässt. 
+Section77 e.V. zeigt am Samstag, 4.11. ab 14 Uhr in ihren Räumen in der Hauptstrasse 1 in Offenburg (Bahnhof), wie man damit Heimautomatisierung, 3D-Druck, Retro-Spiele-Konsole, Medienzentrale oder Werbe-Blocker bauen kann. 
+
+Vorgeführt werden die Installation sowie die praktische Verwendung. 
+
+Die Teilnahme an der Veranstaltung ist wie immer kostenlos, unverbindlich und ohne vorherige Anmeldung möglich.
 
 ---
 class: default
