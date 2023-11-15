@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Schwarzer Gürtel in Slicen - auch wenn Du schon länger in 3D druckst, wird Dich dieser Trick überraschen...
 ---
 date: 2023-12-02 14:00
 ---
@@ -12,7 +12,9 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Schwarzer Gürtel in Slicen - auch wenn Du schon länger in 3D druckst, wird Dich dieser Trick überraschen...
+
+Mit dem Slicer wird die universelle STL-Datei in das druckerspezifische Format gewandelt. Die Qualität des Ausdrucks, die Druckzeit und nicht zuletzt die Erfolgswahrscheinlichkeit werden darüber eingestellt. Die Standardeinstellungen bringen Dich meistens ans Ziel - aber die Feinheiten zu kennen, lohnt sich.
 
 ---
 class: default
