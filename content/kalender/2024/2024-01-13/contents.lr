@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Einstieg in die eigene Heimautomatisierung mit freien Werkzeugen
 ---
 date: 2024-01-13 14:00
 ---
@@ -12,8 +12,12 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Bei gekauften SmartHome-Lösungen entscheidet man sich zwischen Pest und Colera: entweder bezieht man auch die weniger attraktiven Komponenten alle vom gleichen Hersteller oder man sammelt sich 5 und mehr Apps für Garagentor, Haustür, Heizung, Licht, Wetterstation, Kameras, Rolladen, E-Auto, ...
+Genau hier kommen OpenSource-Lösungen ins Spiel: über eine einzige Oberfläche lassen sich alle Komponenten der unterschiedlichen Hersteller einbinden.
+
+Wir zeigen mehrere Projekte, mit denen sich das machen lässt.
+
+Die Teilnahme ist kostenlos, eine Anmeldung ist nicht erforderlich.
 
 ---
 class: default
-
