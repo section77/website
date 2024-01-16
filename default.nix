@@ -1,9 +1,9 @@
 let
 
   pkgs = import (builtins.fetchGit {
-    name = "nixos-23.05";
+    name = "nixos-23.11";
     url = "https://github.com/nixos/nixpkgs/";
-    ref = "refs/heads/nixos-23.05";
+    ref = "refs/heads/nixos-23.11";
     rev = "9790f3242da2152d5aa1976e3e4b8b414f4dd206";
     }) {};
 
