@@ -1,0 +1,27 @@
+{
+    "api": "0.13",
+    "space": "section77",
+    "logo": "https://section77.de/static/section77_logo_vector.svg",
+    "url": "https://section77.de/",
+    "location": {
+        "address": "Hauptstraße 1, 77652 Offenburg, Germany",
+        "lat":  48.4771,
+        "lon": 7.9461
+    },
+    "state": {
+      "open": null
+    },
+    "contact": {
+        "email": "info@section77.de",
+        "twitter": "@section77de"
+    },
+    "feeds": {
+        "calendar": {
+            "type": "ical",
+            "url": "https://section77.de/section77.ics"
+        }
+    },
+    "issue_report_channels": [
+        "email"
+    ]
+}
