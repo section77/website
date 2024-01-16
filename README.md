@@ -47,3 +47,7 @@ push your changes. This triggers the GitHub action.
 
 ## Update chaostreff-scheduler
 When the [chaostreff-scheduler](https://github.com/section77/chaostreff-scheduler) is changed, default.nix must be updated with the current commit hash and the nix hash need to be set to "". Then nix will complain and generate the actual [nix hash](https://nixos.wiki/wiki/Nix_Hash) (to be looked up in the ci job). This hash then needs to be inserted in the default.nix file.
+
+## Update nixos
+From time to time or if HTTP Status 404, the nixos channel must be updated in the [workflows](.github/workflows/) and in the [default.nix](default.nix) file.
+You'll get the current one at [Nix Channel Status](https://status.nixos.org).
