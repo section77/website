@@ -4,7 +4,7 @@ let
     name = "nixos-23.11";
     url = "https://github.com/nixos/nixpkgs/";
     ref = "refs/heads/nixos-23.11";
-    rev = "b8dd8be3c790215716e7c12b247f45ca525867e2";
+    rev = "a77ab169a83a4175169d78684ddd2e54486ac651";
     }) {};
 
   site = pkgs.stdenv.mkDerivation rec {
@@ -25,8 +25,8 @@ let
   scheduler = import (pkgs.fetchFromGitHub {
     owner = "section77";
     repo = "chaostreff-scheduler";
-    rev = "7bc8f3ec4b2aa889d939eaa9e5076e291def9847";
-    sha256 = "sha256-YRkERoly02v3ZEnD5LKtyTT6eBAKwAb8b3pUSZ8PUD0=";
+    rev = "60f8fcf5021b13a12de86fdfacbbd0cbb13c89a0";
+    sha256 = "sha256-y48XkvQIbekBcfzVqKWo4ZtJckLEB+hxTXFW69pz48M=";
   });
   #scheduler = import ../chaostreff-scheduler ;
 
