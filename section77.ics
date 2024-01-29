@@ -2719,7 +2719,7 @@ DTSTAMP:20240203T140000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240203T140000
 DTEND;TZID=Europe/Berlin:20240203T170000
-SUMMARY:Tech-Event
+SUMMARY:Tech-Event: Einstieg in die Nutzung von Künstlicher Intelligenz
 URL:https://section77.de/kalender/2024/#2024-02-03
 END:VEVENT
 BEGIN:VEVENT
