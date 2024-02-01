@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://section77.de/</loc></url>
-  <url><loc>https://section77.de/datenschutz/</loc></url>
-  <url><loc>https://section77.de/section77.ics</loc></url>
-  <url><loc>https://section77.de/projects/</loc></url>
-  <url><loc>https://section77.de/impressum/</loc></url>
+  <url><loc>https://section77.de/about/</loc></url>
   <url><loc>https://section77.de/blog/</loc></url>
   <url><loc>https://section77.de/blog/first-post/</loc></url>
-  <url><loc>https://section77.de/corona/</loc></url>
+  <url><loc>https://section77.de/datenschutz/</loc></url>
+  <url><loc>https://section77.de/section77.ics</loc></url>
   <url><loc>https://section77.de/kalender/</loc></url>
   <url><loc>https://section77.de/kalender/2017/</loc></url>
   <url><loc>https://section77.de/kalender/2017/2017-12-19/</loc></url>
@@ -312,6 +310,11 @@
   <url><loc>https://section77.de/kalender/2023/2023-01-07/</loc></url>
   <url><loc>https://section77.de/kalender/2023/2023-01-03/</loc></url>
   <url><loc>https://section77.de/kalender/2024/</loc></url>
+  <url><loc>https://section77.de/kalender/2024/2024-03-26/</loc></url>
+  <url><loc>https://section77.de/kalender/2024/2024-03-19/</loc></url>
+  <url><loc>https://section77.de/kalender/2024/2024-03-12/</loc></url>
+  <url><loc>https://section77.de/kalender/2024/2024-03-05/</loc></url>
+  <url><loc>https://section77.de/kalender/2024/2024-03-02/</loc></url>
   <url><loc>https://section77.de/kalender/2024/2024-02-27/</loc></url>
   <url><loc>https://section77.de/kalender/2024/2024-02-20/</loc></url>
   <url><loc>https://section77.de/kalender/2024/2024-02-13/</loc></url>
@@ -323,6 +326,8 @@
   <url><loc>https://section77.de/kalender/2024/2024-01-13/</loc></url>
   <url><loc>https://section77.de/kalender/2024/2024-01-09/</loc></url>
   <url><loc>https://section77.de/kalender/2024/2024-01-02/</loc></url>
-  <url><loc>https://section77.de/about/</loc></url>
+  <url><loc>https://section77.de/corona/</loc></url>
+  <url><loc>https://section77.de/impressum/</loc></url>
+  <url><loc>https://section77.de/projects/</loc></url>
   <url><loc>https://section77.de/kontakt/</loc></url>
 </urlset>
