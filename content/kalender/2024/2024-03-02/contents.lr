@@ -1,6 +1,6 @@
 _model: event
 ---
-title: International Open Hackerspace Day
+title: Tag des offenen Hackspace - komm' vorbei!
 ---
 date: 2024-03-02 11:00
 ---
@@ -12,10 +12,10 @@ url: https://www.openstreetmap.org/node/7710279123#map=19/48.47696363925934/7.94
 ---
 body:
 #### text-block ####
- text:
+ text: Wir laden zum Tag des offenen Hackspace ein
 
-Details folgen :)
+Wir öffnen am 3. März in über fünfzig Hackspaces unsere Türen und hoffen auf zahlreichen Besuch.
 
----
-class: default
+Neben den Räumlichkeiten selbst könnt ihr die Menschen kennenlernen und die Themen, mit denen sie sich befassen, und vor allem könnt ihr erfahren, was hinter der Idee von Hackspaces und Hacken im Allgemeinen steckt.
 
+[Weiter lesen](https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung/)
