@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event: Rust Crashcourse
+title: Tech-Event: Rust Crashkurs
 ---
 date: 2024-04-06 14:00
 ---
@@ -12,7 +12,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Rust ist eine recht neue, inovative multiparadikmen Programmiersprache die großen Wert auf Sicherheit und Geschwindigkeit legt.
+ text: Rust ist eine recht neue, innovative Multiparadigmen-Programmiersprache, die großen Wert auf Sicherheit und Geschwindigkeit legt.
 
  Wir geben einen groben Einstieg und zeigen Grundlagen der Programmiersprache.
 
