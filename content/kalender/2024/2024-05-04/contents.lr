@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Einstieg ins 3D-Drucken
 ---
 date: 2024-05-04 14:00
 ---
@@ -12,8 +12,11 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: 3D-Drucker sind längst zu einem der Standard-Werkzeuge in Makerspaces und Hobbykellern geworden. Ob es um den Druck von Bauteilen geht, die man nicht kaufen kann oder ein Ersatzteil, dessen Versand auf dem Postweg mehrere Tage dauern würde und gedruckt bereits nach ein paar Stunden einsetzbar ist oder die Materialisierung von Gegenständen, die man sich selbst erdacht hat - der 3D-Drucker ist die Maschine der Wahl. 
+
+Wir haben mehrere Drucker in unserem Maschinenraum und zeigen Schritt für Schritt wie der Druck funktioniert und welche Programme dazu benötigt werden. 
+
+Die Teilnahme ist kostenlos, eine Anmeldung ist nicht erforderlich.
 
 ---
 class: default
-
