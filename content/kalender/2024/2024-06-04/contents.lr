@@ -1,0 +1,21 @@
+_model: event
+---
+title: Chaostreff
+---
+date: 2024-06-04 20:00
+---
+end: 2024-06-04 23:00
+---
+type: Event
+---
+url: https://www.openstreetmap.org/node/7710279123#map=19/48.47696363925934/7.94585645198822
+---
+body:
+#### text-block ####
+ text: Reguläres Dienstagstreffen des Vereins.
+
+
+
+---
+class: default
+
