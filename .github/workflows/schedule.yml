@@ -16,7 +16,7 @@ jobs:
       - uses: cachix/install-nix-action@V27
         with:
           nix_path: nixpkgs=channel:nixos-23.11
-      - uses: cachix/cachix-action@v14
+      - uses: cachix/cachix-action@v15
         with:
           name: s77-website
           signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
