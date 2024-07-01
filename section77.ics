@@ -2687,6 +2687,51 @@ SUMMARY:Freies Hacken
 URL:https://section77.de/kalender/2024/#2024-10-19
 END:VEVENT
 BEGIN:VEVENT
+UID:2024-08-27
+DTSTAMP:20240827T200000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20240827T200000
+DTEND;TZID=Europe/Berlin:20240827T230000
+SUMMARY:Chaostreff
+URL:https://section77.de/kalender/2024/#2024-08-27
+END:VEVENT
+BEGIN:VEVENT
+UID:2024-08-20
+DTSTAMP:20240820T200000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20240820T200000
+DTEND;TZID=Europe/Berlin:20240820T230000
+SUMMARY:Chaostreff
+URL:https://section77.de/kalender/2024/#2024-08-20
+END:VEVENT
+BEGIN:VEVENT
+UID:2024-08-13
+DTSTAMP:20240813T200000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20240813T200000
+DTEND;TZID=Europe/Berlin:20240813T230000
+SUMMARY:Chaostreff
+URL:https://section77.de/kalender/2024/#2024-08-13
+END:VEVENT
+BEGIN:VEVENT
+UID:2024-08-06
+DTSTAMP:20240806T200000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20240806T200000
+DTEND;TZID=Europe/Berlin:20240806T230000
+SUMMARY:Chaostreff
+URL:https://section77.de/kalender/2024/#2024-08-06
+END:VEVENT
+BEGIN:VEVENT
+UID:2024-08-03
+DTSTAMP:20240803T140000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20240803T140000
+DTEND;TZID=Europe/Berlin:20240803T170000
+SUMMARY:Tech-Event
+URL:https://section77.de/kalender/2024/#2024-08-03
+END:VEVENT
+BEGIN:VEVENT
 UID:2024-07-30
 DTSTAMP:20240730T200000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
@@ -2747,7 +2792,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240618T200000
 DTEND;TZID=Europe/Berlin:20240618T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/#2024-06-18
+URL:https://section77.de/kalender/2024/page/2/#2024-06-18
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-06-11
@@ -2756,7 +2801,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240611T200000
 DTEND;TZID=Europe/Berlin:20240611T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/#2024-06-11
+URL:https://section77.de/kalender/2024/page/2/#2024-06-11
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-06-04
@@ -2765,7 +2810,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240604T200000
 DTEND;TZID=Europe/Berlin:20240604T230000
 SUMMARY:Chaostreff - Jubiläum 10 Jahre section77
-URL:https://section77.de/kalender/2024/#2024-06-04
+URL:https://section77.de/kalender/2024/page/2/#2024-06-04
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-05-28
@@ -2774,7 +2819,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240528T200000
 DTEND;TZID=Europe/Berlin:20240528T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/#2024-05-28
+URL:https://section77.de/kalender/2024/page/2/#2024-05-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-05-21
@@ -2783,7 +2828,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240521T200000
 DTEND;TZID=Europe/Berlin:20240521T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/#2024-05-21
+URL:https://section77.de/kalender/2024/page/2/#2024-05-21
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-05-14
@@ -2846,7 +2891,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240416T200000
 DTEND;TZID=Europe/Berlin:20240416T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/2/#2024-04-16
+URL:https://section77.de/kalender/2024/page/3/#2024-04-16
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-04-09
@@ -2855,7 +2900,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240409T200000
 DTEND;TZID=Europe/Berlin:20240409T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/2/#2024-04-09
+URL:https://section77.de/kalender/2024/page/3/#2024-04-09
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-04-06
@@ -2864,7 +2909,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240406T140000
 DTEND;TZID=Europe/Berlin:20240406T170000
 SUMMARY:Tech-Event: Rust Crashkurs
-URL:https://section77.de/kalender/2024/page/2/#2024-04-06
+URL:https://section77.de/kalender/2024/page/3/#2024-04-06
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-04-02
@@ -2873,7 +2918,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240402T200000
 DTEND;TZID=Europe/Berlin:20240402T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/2/#2024-04-02
+URL:https://section77.de/kalender/2024/page/3/#2024-04-02
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-03-26
@@ -2882,7 +2927,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240326T200000
 DTEND;TZID=Europe/Berlin:20240326T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/2/#2024-03-26
+URL:https://section77.de/kalender/2024/page/3/#2024-03-26
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-03-19
@@ -2954,7 +2999,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240213T200000
 DTEND;TZID=Europe/Berlin:20240213T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-02-13
+URL:https://section77.de/kalender/2024/page/4/#2024-02-13
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-02-06
@@ -2963,7 +3008,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240206T200000
 DTEND;TZID=Europe/Berlin:20240206T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-02-06
+URL:https://section77.de/kalender/2024/page/4/#2024-02-06
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-02-03
@@ -2972,7 +3017,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240203T140000
 DTEND;TZID=Europe/Berlin:20240203T170000
 SUMMARY:Tech-Event: Einstieg in die Nutzung von Künstlicher Intelligenz
-URL:https://section77.de/kalender/2024/page/3/#2024-02-03
+URL:https://section77.de/kalender/2024/page/4/#2024-02-03
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-01-30
@@ -2981,7 +3026,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240130T200000
 DTEND;TZID=Europe/Berlin:20240130T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-01-30
+URL:https://section77.de/kalender/2024/page/4/#2024-01-30
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-01-23
@@ -2990,7 +3035,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240123T200000
 DTEND;TZID=Europe/Berlin:20240123T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-01-23
+URL:https://section77.de/kalender/2024/page/4/#2024-01-23
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-01-16
