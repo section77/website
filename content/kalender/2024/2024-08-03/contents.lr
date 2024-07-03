@@ -1,8 +1,8 @@
 _model: event
 ---
-title: Tech-Event
+title: Tag der offenen Tür
 ---
-date: 2024-08-03 14:00
+date: 2024-08-03 11:00
 ---
 end: 2024-08-03 17:00
 ---
@@ -12,7 +12,13 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Unsere Mitmachwerkstatt besteht inzwischen aus einer "Empfangshalle" mit Tischen, Couch etc., die sich primär für Kopfarbeit und Vorträge eignet.
+Im Maschinenraum wird es auch mal etwas lauter, wenn einer der 3D-Drucker, der Laser-Cutter oder die Bohrmaschine losrattert.
+
+An diesem Tag könnt ihr das mal aus der Nähe anschauen und unverbindlich mit uns Kontakt aufnehmen. Als erster Hackspace in Deutschland mit eigenem ICE-Halt sind wir sehr gut mit Öffis zu erreichen.
+
+Ansonsten geht das auch jeden Dienstag ab 20 Uhr oder jeden ersten Samstag im Monat (Tech-Event, hier dreht sich dann alles um ein bestimmtes Thema) oder aktuell eher unregelmäßig am 3. Samstag im Monat beim Freien Hacken (aka "der Dienstag am Samstag").
+Mitgliedern stehen die Räume natürlich jederzeit zur Nutzung zur Verfügung.
 
 ---
 class: default
