@@ -2723,15 +2723,6 @@ SUMMARY:Chaostreff
 URL:https://section77.de/kalender/2024/#2024-10-08
 END:VEVENT
 BEGIN:VEVENT
-UID:2024-10-05
-DTSTAMP:20241005T140000Z
-ORGANIZER;CN=Section77:MAILTO:info@section77.de
-DTSTART;TZID=Europe/Berlin:20241005T140000
-DTEND;TZID=Europe/Berlin:20241005T170000
-SUMMARY:Tech-Event
-URL:https://section77.de/kalender/2024/#2024-10-05
-END:VEVENT
-BEGIN:VEVENT
 UID:2024-10-01
 DTSTAMP:20241001T200000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
@@ -2792,7 +2783,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240820T200000
 DTEND;TZID=Europe/Berlin:20240820T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/2/#2024-08-20
+URL:https://section77.de/kalender/2024/#2024-08-20
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-08-13
@@ -2891,7 +2882,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240611T200000
 DTEND;TZID=Europe/Berlin:20240611T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-06-11
+URL:https://section77.de/kalender/2024/page/2/#2024-06-11
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-06-04
@@ -2999,7 +2990,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240406T140000
 DTEND;TZID=Europe/Berlin:20240406T170000
 SUMMARY:Tech-Event: Rust Crashkurs
-URL:https://section77.de/kalender/2024/page/4/#2024-04-06
+URL:https://section77.de/kalender/2024/page/3/#2024-04-06
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-04-02
@@ -3107,7 +3098,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240203T140000
 DTEND;TZID=Europe/Berlin:20240203T170000
 SUMMARY:Tech-Event: Einstieg in die Nutzung von Künstlicher Intelligenz
-URL:https://section77.de/kalender/2024/page/5/#2024-02-03
+URL:https://section77.de/kalender/2024/page/4/#2024-02-03
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-01-30
