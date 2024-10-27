@@ -12,7 +12,9 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Node-RED (https://nodered.org)
+ text:
+Heimautomatisierung mit OpenSource? Ein alter Hut! Aber wenn das Werkzeug sowohl Low-Code als auch "richtige" Programmierung erlauben soll, ist [Node-RED](https://nodered.org) weit vorne.
+Schnittstellen von DECT über Bluetooth, Zigbee, Z-Wave bis zu EnOcean lassen sich durch unzählige Erweiterungen nutzen. Diverse Dashboards zur Visualisierung erlauben die Umsetzung von Projekten jenseits von Smarthome!
 
 ---
 class: default
