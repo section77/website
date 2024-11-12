@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Section 77 - {{ this.title }}</title>
+        <link rel="me" href="https://chaos.social/@section77">
+        <link rel="stylesheet" href="{{ '/static/font-awesome.min.css'|url }}">
+        <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    {% block calendar %}
+                        <div class="column is-one-fifths">
+                            <h1 class="title h1">Nächste Termine</h1>
+                            {% for year in site.get('/kalender').children %}
+                                {% for event in year.children|sort(attribute='date') if event.date > event.date.now()%}
+                                    {% if loop.index < 5 %}
+                                        <div class="card">
+                                            <header class="card-header">
+                                            <p class="card-header-title">
+                                                <time datetime="{{ event.date.strftime("%Y-%m-%d") }}">
+                                                    {{ event.date.strftime("%Y-%m-%d, %H:%M") }} Uhr
+                                                </time>:&nbsp;
+                                                {% if event.url %}
+                                                    <a href="{{ event.url }}">{{ event.title }}</a>
+                                                {% else %}
+                                                    <a href="{{ event|url }}">{{ event.title }}</a>
+                                                {% endif %}
+                                            </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <div class="content">
+                                                    {% if event.body.blocks %}
+                                                        {{ event.body.blocks[0] }}
+                                                    {% endif %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        </div>
+                    {% endblock calendar %}
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

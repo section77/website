@@ -1,0 +1,5 @@
+_model: events
+---
+title: events
+---
+_template: events.html
