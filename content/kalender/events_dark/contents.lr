@@ -1,0 +1,7 @@
+_model: events
+---
+title: events
+---
+mode: dark
+---
+_template: events.html
