@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event: Podman, das bessere Docker?
 ---
 date: 2025-01-11 14:00
 ---
@@ -12,7 +12,13 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Podman, das bessere Docker?
+text: 
+Container sind wie kleine, abgeschottete Urlaubskoffer für Anwendungen – sie packen alles ein, was die Software braucht, um überall gleich gut zu funktionieren! Egal, ob du Docker oder Podman verwendest, diese Koffer sorgen dafür, dass deine Anwendungen nicht aus dem Rahmen fallen, egal wo sie landen.
+
+Docker hat einen zentralen Daemon, der wie der überfürsorgliche Reiseleiter ist, der alles im Blick hat, während Podman der entspannte Freund ist, der ohne Aufpasser auskommt und dir die Freiheit gibt, deine Container selbst zu managen.
+
+Also, lass den Reiseleiter hinter dir und werde Backpacker! 
+
 
 ---
 class: default
