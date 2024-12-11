@@ -6,7 +6,11 @@
         <title>Section 77 - {{ this.title }}</title>
         <link rel="me" href="https://chaos.social/@section77">
         <link rel="stylesheet" href="{{ '/static/font-awesome.min.css'|url }}">
+        {% if this.mode == "light" %}
         <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+        {% else %}
+        <link rel="stylesheet" href="{{ '/static/style_dark.css'|url }}">
+        {% endif %}
     </head>
     <body>
         <section class="section">
