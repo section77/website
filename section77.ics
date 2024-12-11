@@ -2678,24 +2678,6 @@ SUMMARY:Chaostreff
 URL:https://section77.de/kalender/2023/page/6/#2023-01-03
 END:VEVENT
 BEGIN:VEVENT
-UID:2024-12-31
-DTSTAMP:20241231T200000Z
-ORGANIZER;CN=Section77:MAILTO:info@section77.de
-DTSTART;TZID=Europe/Berlin:20241231T200000
-DTEND;TZID=Europe/Berlin:20241231T230000
-SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/#2024-12-31
-END:VEVENT
-BEGIN:VEVENT
-UID:2024-12-24
-DTSTAMP:20241224T200000Z
-ORGANIZER;CN=Section77:MAILTO:info@section77.de
-DTSTART;TZID=Europe/Berlin:20241224T200000
-DTEND;TZID=Europe/Berlin:20241224T230000
-SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/#2024-12-24
-END:VEVENT
-BEGIN:VEVENT
 UID:2024-12-17
 DTSTAMP:20241217T200000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
@@ -2792,7 +2774,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20241029T200000
 DTEND;TZID=Europe/Berlin:20241029T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/2/#2024-10-29
+URL:https://section77.de/kalender/2024/#2024-10-29
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-10-26
@@ -2801,7 +2783,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20241026T140000
 DTEND;TZID=Europe/Berlin:20241026T170000
 SUMMARY:Freies Hacken
-URL:https://section77.de/kalender/2024/page/2/#2024-10-26
+URL:https://section77.de/kalender/2024/#2024-10-26
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-10-22
@@ -2891,7 +2873,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240820T200000
 DTEND;TZID=Europe/Berlin:20240820T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-08-20
+URL:https://section77.de/kalender/2024/page/2/#2024-08-20
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-08-13
@@ -2900,7 +2882,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240813T200000
 DTEND;TZID=Europe/Berlin:20240813T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/3/#2024-08-13
+URL:https://section77.de/kalender/2024/page/2/#2024-08-13
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-08-06
@@ -2999,7 +2981,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240604T200000
 DTEND;TZID=Europe/Berlin:20240604T230000
 SUMMARY:Chaostreff - Jubiläum 10 Jahre section77
-URL:https://section77.de/kalender/2024/page/4/#2024-06-04
+URL:https://section77.de/kalender/2024/page/3/#2024-06-04
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-05-28
@@ -3008,7 +2990,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240528T200000
 DTEND;TZID=Europe/Berlin:20240528T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/4/#2024-05-28
+URL:https://section77.de/kalender/2024/page/3/#2024-05-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-05-21
@@ -3107,7 +3089,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240402T200000
 DTEND;TZID=Europe/Berlin:20240402T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/5/#2024-04-02
+URL:https://section77.de/kalender/2024/page/4/#2024-04-02
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-03-26
@@ -3116,7 +3098,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240326T200000
 DTEND;TZID=Europe/Berlin:20240326T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/5/#2024-03-26
+URL:https://section77.de/kalender/2024/page/4/#2024-03-26
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-03-19
@@ -3215,7 +3197,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240130T200000
 DTEND;TZID=Europe/Berlin:20240130T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/6/#2024-01-30
+URL:https://section77.de/kalender/2024/page/5/#2024-01-30
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-01-23
@@ -3224,7 +3206,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20240123T200000
 DTEND;TZID=Europe/Berlin:20240123T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2024/page/6/#2024-01-23
+URL:https://section77.de/kalender/2024/page/5/#2024-01-23
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-01-16
