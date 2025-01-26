@@ -1,0 +1,7 @@
+_model: events
+---
+title: events
+---
+mode: light
+---
+_template: events.html
