@@ -3295,7 +3295,7 @@ DTSTAMP:20250208T140000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250208T140000
 DTEND;TZID=Europe/Berlin:20250208T170000
-SUMMARY:Tech-Event
+SUMMARY:Tech-Event: Security 101 und Datenschutz für Muggel
 URL:https://section77.de/kalender/2025/#2025-02-08
 END:VEVENT
 BEGIN:VEVENT
