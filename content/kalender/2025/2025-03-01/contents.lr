@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event - Lokale KI mit Home Assistant und Docker
 ---
 date: 2025-03-01 14:00
 ---
@@ -12,7 +12,17 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Wie baut man ein lokales Sprachassistenzsystem die auch ohne APIs von Google / OpenAI / etc. funktoniert?
+Auf Basis eines AMD Mini PCs wurden Whisper, Piper und Ollama aufgesetzt und in Home Assistant eingebunden.
+Um mit Hilfe des AMD ROCm Software-Stack von der Grafikbeschleunigung der iGPU zu profitieren war es notwendig Teile der Software neu zu kompilieren,
+weshalb kurzerhand spezielle Docker-Images für den SoC im Mini-PC gebaut und als gitlab-ci Pipeline automatisiert wurden.
+ 
+Links zur verwendeten Software:  
+https://www.amd.com/de/products/software/rocm.html  
+https://github.com/sebastianmuell/rocm-base  
+https://github.com/rhasspy/wyoming-piper  
+https://github.com/rhasspy/wyoming-faster-whisper  
+https://github.com/ollama/ollama  
 
 ---
 class: default
