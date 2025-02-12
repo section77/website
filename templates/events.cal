@@ -26,7 +26,7 @@ END:VTIMEZONE
 {%- for event in year.children %}
 BEGIN:VEVENT
 UID:{{ event._slug }}
-DTSTAMP:{{ event.date.strftime("%Y%m%dT%H%M%SZ") }}
+DTSTAMP:{{ event.date.strftime("%Y%m%dT%H%M%S") }}
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:{{ event.date.strftime("%Y%m%dT%H%M%S") }}
 {%- if event.end %}
