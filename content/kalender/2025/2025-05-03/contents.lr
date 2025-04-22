@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event - Heim-NAS-Shootout
 ---
 date: 2025-05-03 14:00
 ---
@@ -12,7 +12,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Heim-NAS? Klar, haben alle zuhause. Und alle haben das Gleiche, und zwar das Beste. Bei diesem Tech-Event bringen alle ihr Heim-NAS mit (physisch oder virtuell/remote) und zeigen, warum das das Beste ist. Und lassen sich überraschen, was die Anderen so dabei haben... 
 
 ---
 class: default
