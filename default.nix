@@ -1,11 +1,10 @@
 let
-
   pkgs = import (builtins.fetchGit {
-    name = "nixos-23.11";
+    name = "nixos-24.11";
     url = "https://github.com/nixos/nixpkgs/";
-    ref = "refs/heads/nixos-23.11";
-    rev = "a77ab169a83a4175169d78684ddd2e54486ac651";
-    }) {};
+    ref = "refs/heads/nixos-24.11";
+    rev = "3f0a8ac25fb674611b98089ca3a5dd6480175751";
+  }) {};
 
   site = pkgs.stdenv.mkDerivation rec {
     src = pkgs.lib.cleanSource ./.;
@@ -17,23 +16,23 @@ let
     ];
 
     installPhase = ''
-        mkdir -p $out
-        lektor build -O $out
+      mkdir -p $out
+      lektor build -O $out
     '';
   };
 
   scheduler = import (pkgs.fetchFromGitHub {
     owner = "section77";
     repo = "chaostreff-scheduler";
-    rev = "60f8fcf5021b13a12de86fdfacbbd0cbb13c89a0";
-    sha256 = "sha256-y48XkvQIbekBcfzVqKWo4ZtJckLEB+hxTXFW69pz48M=";
+    rev = "f60231f0a8f01b2752a7f8c445fd180e803c66ff";
+    sha256 = "sha256-CRnEpogLtfbXAIB9TIbkD9VorDmAcVTSEslDxydmyPg=";
   });
   #scheduler = import ../chaostreff-scheduler ;
 
   schedule = pkgs.stdenv.mkDerivation rec {
     name = "schedule";
     src = ./.;
-    buildInputs = [ scheduler pkgs.git ];
+    buildInputs = [scheduler pkgs.git];
     installPhase = ''
       mkdir $out
 
@@ -45,14 +44,15 @@ let
     '';
   };
 in
-if pkgs.lib.inNixShell then pkgs.mkShell {
-  buildInputs = site.buildInputs;
+  if pkgs.lib.inNixShell
+  then
+    pkgs.mkShell {
+      buildInputs = site.buildInputs;
 
-  shellHook = ''
-    lektor server -h 0.0.0.0 -p 5001
-  '';
-}
-else {
-  inherit site schedule;
-}
-
+      shellHook = ''
+        lektor server -h 0.0.0.0 -p 5001
+      '';
+    }
+  else {
+    inherit site schedule;
+  }
