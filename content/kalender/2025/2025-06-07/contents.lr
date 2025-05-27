@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Tech-Event
+title: Tech-Event - Browser im Browser - Ein geteiltes Erlebnis
 ---
 date: 2025-06-07 14:00
 ---
@@ -12,7 +12,7 @@ url: https://osm.org/go/0DLdKX764?node=7710279123
 ---
 body:
 #### text-block ####
- text: Themensuche läuft ...
+ text: Hattet ihr schon mal das Problem, dass ihr etwas teilen wolltet, aber nur einen Browser hattet? Dass kennen wir nur zu gut, weshalb wir zusammen eine Lösung erarbeiten werden.
 
 ---
 class: default
