@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://section77.de/</loc></url>
-  <url><loc>https://section77.de/about/</loc></url>
   <url><loc>https://section77.de/kontakt/</loc></url>
-  <url><loc>https://section77.de/projects/</loc></url>
   <url><loc>https://section77.de/blog/</loc></url>
   <url><loc>https://section77.de/blog/first-post/</loc></url>
+  <url><loc>https://section77.de/impressum/</loc></url>
+  <url><loc>https://section77.de/about/</loc></url>
+  <url><loc>https://section77.de/section77.ics</loc></url>
   <url><loc>https://section77.de/datenschutz/</loc></url>
   <url><loc>https://section77.de/kalender/</loc></url>
   <url><loc>https://section77.de/kalender/2017/</loc></url>
@@ -411,7 +412,6 @@
   <url><loc>https://section77.de/kalender/2025/2025-01-14/</loc></url>
   <url><loc>https://section77.de/kalender/2025/2025-01-11/</loc></url>
   <url><loc>https://section77.de/kalender/2025/2025-01-07/</loc></url>
-  <url><loc>https://section77.de/impressum/</loc></url>
+  <url><loc>https://section77.de/projects/</loc></url>
   <url><loc>https://section77.de/corona/</loc></url>
-  <url><loc>https://section77.de/section77.ics</loc></url>
 </urlset>
