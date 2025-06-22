@@ -7,15 +7,14 @@ label: w3lc0m3!
 body:
 
 #### text-block ####
-text:
-
-Section77 e.V.
-Chaostreff Offenburg (Ortenaukreis)
+text: Section77 e.V. - CCC  Offenburg (Ortenaukreis) / Erfa
 ----
 class: default
 #### select-image ####
 image: dsc2817-web.jpg
 ----
-caption:
+size: original
+----
+caption: 
 ----
 destination: https://wiki.section77.de/projekte/mitmachwerkstatt_in_offenburg
