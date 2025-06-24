@@ -23,7 +23,9 @@ jobs:
           signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
 
       - name: schedule events
-        run: echo "WORKDIR=$(nix-build -A schedule)" >> $GITHUB_ENV
+        run: |
+          git config --global --add safe.directory "*"
+          echo "WORKDIR=$(nix-build -A schedule)" >> $GITHUB_ENV
 
       - name: push scheduled events
         run: |
