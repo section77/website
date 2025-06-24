@@ -7,7 +7,8 @@ on:
 
   schedule:
     - cron: '1 2 1 * *'   # Runs at 02:01 UTC on the 1st of every month
-
+  workflow_dispatch: {}
+  
 jobs:
   schedule:
     runs-on: ubuntu-latest
@@ -26,6 +27,7 @@ jobs:
 
       - name: push scheduled events
         run: |
+          git config --global --add safe.directory $WORKDIR
           git pull $WORKDIR
 
           git config --global user.name 'chaostreff-scheduler'
