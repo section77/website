@@ -3245,6 +3245,15 @@ SUMMARY:Chaostreff
 URL:https://section77.de/kalender/2024/page/6/#2024-01-02
 END:VEVENT
 BEGIN:VEVENT
+UID:2025-07-05
+DTSTAMP:20250705T110000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20250705T110000
+DTEND;TZID=Europe/Berlin:20250705T170000
+SUMMARY:Tag der offenen Tür
+URL:https://section77.de/kalender/2025/#2025-07-05
+END:VEVENT
+BEGIN:VEVENT
 UID:2025-06-24
 DTSTAMP:20250624T200000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
@@ -3350,7 +3359,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250429T200000
 DTEND;TZID=Europe/Berlin:20250429T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2025/#2025-04-29
+URL:https://section77.de/kalender/2025/page/2/#2025-04-29
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-04-29_2
@@ -3449,7 +3458,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250311T200000
 DTEND;TZID=Europe/Berlin:20250311T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2025/page/2/#2025-03-11
+URL:https://section77.de/kalender/2025/page/3/#2025-03-11
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-03-04
@@ -3557,7 +3566,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250111T140000
 DTEND;TZID=Europe/Berlin:20250111T170000
 SUMMARY:Tech-Event: Podman, das bessere Docker?
-URL:https://section77.de/kalender/2025/page/3/#2025-01-11
+URL:https://section77.de/kalender/2025/page/4/#2025-01-11
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-01-07
