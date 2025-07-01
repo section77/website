@@ -6,7 +6,7 @@ let
     rev = "3f0a8ac25fb674611b98089ca3a5dd6480175751";
   }) {};
 
-  site = pkgs.stdenv.mkDerivation rec {
+  site = pkgs.stdenv.mkDerivation {
     src = pkgs.lib.cleanSource ./.;
     name = "website";
 
@@ -27,9 +27,8 @@ let
     rev = "f60231f0a8f01b2752a7f8c445fd180e803c66ff";
     sha256 = "sha256-CRnEpogLtfbXAIB9TIbkD9VorDmAcVTSEslDxydmyPg=";
   });
-  #scheduler = import ../chaostreff-scheduler ;
 
-  schedule = pkgs.stdenv.mkDerivation rec {
+  schedule = pkgs.stdenv.mkDerivation {
     name = "schedule";
     src = ./.;
     buildInputs = [scheduler pkgs.git];
