@@ -22,19 +22,11 @@ jobs:
           name: s77-website
           signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
 
-      - name: schedule events
-        run: |
-          git config user.name 'chaostreff-scheduler'
-          git config user.email 'chaostreff-scheduler@section77.de'
-          echo "WORKDIR=$(nix run)" >> $GITHUB_ENV
-
       - name: push scheduled events
         run: |
-          git pull $WORKDIR
-
           git config user.name 'chaostreff-scheduler'
           git config user.email 'chaostreff-scheduler@section77.de'
-
+          nix run
           #git push -q https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.REPOSITORY }}
           git push
 
