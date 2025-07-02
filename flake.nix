@@ -64,5 +64,17 @@
       };
       default = schedule;
     });
+    devShells = forAllSystems (system:
+    let
+      pkgs = pkgsFor.${system};
+    in
+    {
+      default = pkgs.mkShellNoCC {
+        nativeBuildInputs = packages.${system}.site.nativeBuildInputs;
+        shellHook = ''
+          ${pkgs.lektor}/bin/lektor server -h 0.0.0.0 -p 5001
+        '';
+      };
+    });
   };
 }
