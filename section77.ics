@@ -3308,6 +3308,15 @@ SUMMARY:Chaostreff
 URL:https://section77.de/kalender/2025/#2025-07-22
 END:VEVENT
 BEGIN:VEVENT
+UID:2025-07-19
+DTSTAMP:20250719T140000Z
+ORGANIZER;CN=Section77:MAILTO:info@section77.de
+DTSTART;TZID=Europe/Berlin:20250719T140000
+DTEND;TZID=Europe/Berlin:20250719T170000
+SUMMARY:Freies Hacken
+URL:https://section77.de/kalender/2025/#2025-07-19
+END:VEVENT
+BEGIN:VEVENT
 UID:2025-07-15
 DTSTAMP:20250715T200000Z
 ORGANIZER;CN=Section77:MAILTO:info@section77.de
@@ -3350,7 +3359,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250624T200000
 DTEND;TZID=Europe/Berlin:20250624T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2025/#2025-06-24
+URL:https://section77.de/kalender/2025/page/2/#2025-06-24
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-06-17
@@ -3449,7 +3458,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250429T200000
 DTEND;TZID=Europe/Berlin:20250429T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2025/page/2/#2025-04-29
+URL:https://section77.de/kalender/2025/page/3/#2025-04-29
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-04-29_2
@@ -3557,7 +3566,7 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250304T200000
 DTEND;TZID=Europe/Berlin:20250304T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2025/page/3/#2025-03-04
+URL:https://section77.de/kalender/2025/page/4/#2025-03-04
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-03-01
@@ -3665,6 +3674,6 @@ ORGANIZER;CN=Section77:MAILTO:info@section77.de
 DTSTART;TZID=Europe/Berlin:20250107T200000
 DTEND;TZID=Europe/Berlin:20250107T230000
 SUMMARY:Chaostreff
-URL:https://section77.de/kalender/2025/page/4/#2025-01-07
+URL:https://section77.de/kalender/2025/page/5/#2025-01-07
 END:VEVENT
 END:VCALENDAR
